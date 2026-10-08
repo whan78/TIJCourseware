@@ -1,0 +1,4 @@
+Three traps, thirty seconds each. One: a class defined inside a method or even a loop is perfectly legal, and outside that block the type does not exist — you can only hand it out as its interface. Two: when you extend an inner class, the hidden outer reference does not come free; the derived constructor must call wi-dot-super to attach an outer instance, and the compiler enforces it. Three: you cannot override an inner class the way you override a method — the two Inner names are just two separate types. Any of these three is fair game as an exam code-reading question.
+
+--- Chinese Annotation ---
+Generics 入门。泛型是 5 号学的亲戚——它让容器类型安全。记住：运行时类型擦除，<T> 变成 Object。通配符：? extends Animal（只能取，协变），? super Poodle（只能放，逆变）。这两种风格在第十五章讲得更完整。

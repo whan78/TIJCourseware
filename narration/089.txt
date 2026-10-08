@@ -1,0 +1,4 @@
+Live demo. The bad cast compiles fine — the compiler only sees a Shape, and a Triangle cast from Shape is plausible. Uncomment it, run it, and read the compiler's complaint together: ClassCastException — class Circle cannot be cast to class Triangle. When you meet this exception, ask the reflex question: who created the object? The instanceof guard is the safe pattern: guard, cast, use. And getClass().getSimpleName() tells the truth about what is really on the heap. Half-time: your project checkpoint.
+
+--- Chinese Annotation ---
+这是期中设计检查点——第九周，每个团队展示自己的设计，每组一页。四行评分细则：封装；你的扩展计划；一个策略槽位——仅预览——也就是算法插入的槽位，用的正是我们刚讲的可扩展性语言；以及命名。右边淡化的图是完整的策略形态——第九章完整揭晓，但你的设计现在就需要这个形状。打分宽容些：这是反馈，不是判决。各团队，请上台。

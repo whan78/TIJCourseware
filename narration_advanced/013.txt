@@ -1,0 +1,4 @@
+Quick check before we close the chapter. Question one targets the hidden reference — option A is tempting because private sounds like a wall, but for the inner class it is not. Question two is pure syntax recall: a dot new B, and be ready to write it, not just pick it. Question three is the design judgment I keep repeating: no outer usage means static. If you got all three, the rest of the chapter is consolidation; if not, reread the hidden-link slide and the nested-class slide.
+
+--- Chinese Annotation ---
+List 的实现选择。ArrayList 是存储密集型——存满了内存；LinkedList 是散落的——存稀疏时占地少。选择 ArrayList 作为默认：随机存取快，而且底层是连续内存——CPU 缓存友好。这就是经验法则：先选 ArrayList，除非真的要经常在中间插删。

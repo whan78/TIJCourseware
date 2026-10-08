@@ -1,0 +1,4 @@
+GC handles memory — only memory. Files, sockets, database connections: the garbage collector will never close them for you; you release them yourself. That is the attitude goal I care about most in this section: resource stewardship — every resource you open gets a release plan written before you open it. On the checklist: heap memory gets a check under GC's job; file handles, sockets and DB connections sit under your job with crosses and a red stamp: no automatic cleanup. We keep this framing and skip the finalize deep-dive — understand level, exam short answer. Now the exam-trap root of the whole course: initialization order.
+
+--- Chinese Annotation ---
+三级台阶，永远按这个顺序。第一级：静态成员，每类一次。第二级：实例字段，按文本声明顺序。第三级：构造器体。字段总是在构造器体运行之前完成。看右边的 House 字段：w1、w2、w3 像按文本顺序贴的便利贴——w1 在 w3 之前，即使 w3 也在构造器里被赋值。拿出手机拍下这页——同一架梯子在 7.2、7.7、8.6 和第十六周复盘都会回来；它是整门课复用次数最多的一张图。拿出小白板：接下来投票。先预测——然后我们运行。

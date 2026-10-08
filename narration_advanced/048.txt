@@ -1,0 +1,4 @@
+Chapter fourteen, four hours. Polymorphism was built on forgetting types — upcast and let dynamic binding work. But frameworks, serialization, and IDEs cannot forget; they must discover types at run time. Java supports three levels: the Class object that every class carries, the instanceof test with its safe cast idiom, and full reflection for late-bound discovery. Exam priorities: the three ways to obtain a Class, and when reflection is the right tool versus overkill.
+
+--- Chinese Annotation ---
+Chapter fourteen, four hours. Polymorphism was built on forgetting types — upcast and let dynamic binding work. But frameworks, serialization, and IDEs cannot forget; they must discover types at run time. Java supports three levels: the Class object that every class carries, the instanceof test with its safe cast idiom, and full reflection for late-bound discovery. Exam priorities: the three ways to obtain a Class, and when reflection is the right tool versus overkill.

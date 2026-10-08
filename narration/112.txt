@@ -1,0 +1,4 @@
+Four items this round. D4: you can never new an abstract class — that is featured error number eleven. D5: implementing methods must be public, otherwise you get the weaker-access error. D6: Rock and Chair share no base class, so the parameter must be the interface type. D7 is the exam short-answer: an abstract class is a half-built house, an interface is a checklist — I want those two model sentences, not vague prose. One reminder on the side: interface dispatch runs the same machinery you already know from upcasting. Constructors and statics, last drill.
+
+--- Chinese Annotation ---
+最后一轮操练，四道题，它们在四分钟里重建知识点 7.2 和 5.1。D8：编译器把 super() 插在每个派生构造器的最前面——基类先行，永远。D9：写了一个三参构造器，new X() 就不再编译；默认的没了。D10：静态块在类加载时运行一次。D11：字段在构造器体之前初始化，按文本顺序。诚实核分：如果错了两道或以上，答辩前来答疑。现在，详细说你的答辩。

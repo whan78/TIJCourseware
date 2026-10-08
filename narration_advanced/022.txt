@@ -1,0 +1,4 @@
+A Set refuses duplicates — the interesting question is how each implementation decides same and different, and what order you get out. HashSet uses hashing: constant-time contains, but iteration order looks like noise. TreeSet keeps everything sorted, at logarithmic cost, so it needs the elements comparable. LinkedHashSet threads a list through the hash table so iteration follows insertion while staying fast. All three judge duplicates through equals and hashCode — the elements themselves carry that logic, which is exactly where chapter seventeen picks up.
+
+--- Chinese Annotation ---
+正则表达式的灵活。Pattern.compile() 存储 -> Matcher.find() 遍历。Matcher 的 group() 返回子匹配，group(0) 返回全部。需要编译的模式可以缓存；只用的一次的在现场写。

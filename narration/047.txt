@@ -1,0 +1,4 @@
+Two jobs, two spellings. this alone is a reference to the current object — "me". this with parentheses calls another constructor of the same class — "ask my colleague first". The chain here: the no-arg constructor calls this with unnamed and 0.0, the String version calls this with name and 9.99, and everything lands in the two-argument constructor where the real work happens. One absolute rule: this(...) must be the first statement in the constructor body. Put it anywhere else and the compiler says: call to this must be first statement in constructor. Read that error aloud with me. Now watch the chain in the real code.
+
+--- Chinese Annotation ---
+先来一个预判问题：如果我删掉 this 点号，写成 name = name，我赋值给了谁？参数赋给了它自己——字段仍是 null。这就是为什么 this.name 是消歧器：this.name 是字段，光秃秃的 name 是参数。每条链都终结在真正干活的构造器——两个参数的那个。再追踪一遍对象 a、b 和 c：三扇门，一个漏斗。跟我复述规则：对 this 的调用必须是构造器的第一条语句。考试代码阅读和实验都压在这页上。下一页：static，再来一次——这次带时间线。

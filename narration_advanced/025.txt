@@ -1,0 +1,4 @@
+Everything this chapter taught, compressed into a decision card. Top row: the three big forks — is it a map? does it need sorted order? is membership speed the only concern? Middle row: the list-and-queue questions. Bottom: the four default recipes that cover ninety percent of everyday code — ArrayList, HashSet, HashMap, ArrayDeque — and the reminder that tree-based containers earn their cost only when you actually need sorted iteration. In the exam, justify your choice with one cost argument, not with 'it seemed natural'.
+
+--- Chinese Annotation ---
+序列化的艺术。实现 Serializable，反序列化的对象会得到默认值。transient 关键字把字段从序列化中排除。外部化是自行控制的序列化——更灵活，却更枯燥。这在分布式系统里很重要。

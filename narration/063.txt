@@ -1,0 +1,4 @@
+Chapter seven is where the two reuse tools meet, so let me run the map in one breath: what — composition versus inheritance; how shaped — base-first initialization and upcasting; where from — class loading and the full ladder; how to find — the is-a versus has-a judgment; apply — an instrumented init log. Keep one decision question for the entire chapter: every reuse choice is has-a versus is-a. A car HAS-A engine; it IS-NOT an engine. Watch the trap: inheriting just to reuse one method. KP 7.1 is Master level — exam code writing plus the lab. Preview of the foundation model: foundation first, then furnish rooms.
+
+--- Chinese Annotation ---
+第五章的脚手架依然成立：基类总是先初始化——没有例外。规则的形状是：extends 声明 is-a 关联，编译器把 super() 静默地插入每个派生构造器的第一行。所以基类构造器在派生体开始之前就跑完了。发音要点：extends 以浊辅音 /z/ 收尾。现在固定两个术语：基类是被继承的类——多数教材称之为父类（superclass）——派生类是执行继承的类——子类（subclass）。TIJ 用 base 和 derived；两个名字都要认识。知识点 7.2 权重为一：构造器顺序考试题。下一页在已验证代码里看它发生。

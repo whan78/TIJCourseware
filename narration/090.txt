@@ -1,0 +1,4 @@
+This is the mid-course design checkpoint — week nine, every team presents its design, one slide each. Four rubric lines: encapsulation; your extension plan; a Strategy slot — preview only — which is a slot where the algorithm plugs in, in exactly the extensibility language we just used; and naming. The faded diagram on the right is the full Strategy shape — full reveal in chapter nine, but your design needs this shape already. Grade softly: this is feedback, not a verdict. Teams, the floor is yours.
+
+--- Chinese Annotation ---
+四个代表队展示：每组三分钟，然后两分钟同伴反馈。其余人提交设计页，在实验里做书面反馈。用屏幕上的句式起手——我喜欢、我担心、如果……会怎样——把反馈保持在短语层面；这是一门英语媒介课程，短语级反馈胜过语法纠正。我听的时候在记录那些设计里没有基类抽象的团队——那是这个检查点最常见的发现，我会把那些团队送去答疑。实验：证明零客户端修改。

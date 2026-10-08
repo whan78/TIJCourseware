@@ -1,0 +1,4 @@
+One line, one answer. The ternary reads: condition, question mark, value if true, colon, value if false — and unlike if-else, it is an EXPRESSION: it produces a value you can store, here the verdict string. Perfect for verdict-style one-liners like pass or retry. One warning from me, and I mean it: do not nest ternaries. Readability first — a nested ternary is a puzzle you set for your future self, and in the exam, clarity earns marks. Strings have their own operator surprises — next.
+
+--- Chinese Annotation ---
+一行，一个答案。三元运算符读作：条件、问号、为真时的值、冒号、为假时的值——与 if-else 不同，它是一个表达式：它产生一个可以存储的值，这里是裁决字符串。非常适合 pass 或 retry 这类一句话裁决。我的一条警告，认真的：不要嵌套三元运算符。可读性优先——嵌套三元是你给未来的自己出的谜题，而在考试里，清晰才能得分。字符串有自己的运算符惊喜——下一个。

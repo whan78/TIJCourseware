@@ -1,0 +1,4 @@
+Three quick votes — one per print line. Whiteboards up after each. I will not explain the String pool before the vote; let the surprise work. The reveals, line by line with live runs: true, false, true. Double-equals compares arrows; equals compares contents. If you picked C on any line, say which line you would change to make it print B. One aside I will not examine: the Integer cache from minus 128 to 127 is a landmine, not exam material — the lab pack has the full version if you want it. Comparisons done — now operators that decide whether the second operand even runs.
+
+--- Chinese Annotation ---
+三个快投票——每个打印行一票。每题之后举小白板。投票前我不解释字符串池；让惊讶自己发挥作用。逐行揭晓并现场运行：true、false、true。双等号比较箭头；equals 比较内容。如果你在任何一行选了 C，说说你会改哪一行让它打印 B。一个不考的题外话：Integer 在负 128 到 127 的缓存是个雷区，不属于考试内容——实验材料里有完整版本。比较完毕——接下来是决定第二个操作数是否运行的运算符。

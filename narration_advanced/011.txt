@@ -1,0 +1,4 @@
+So why does Java bother with inner classes at all? The book gives three answers, one slide each worth. First, multiple inheritance of implementation: since each inner class independently extends something, one outer class can present several behaviors. Second, closures and callbacks: the inner object carries its outer context with it, which is exactly what a callback needs and what plain methods cannot do. Third, the control framework: a fixed event loop, and applications contribute behavior as Event subclasses — often anonymous ones. Hold that picture; it returns as the Swing event model in chapter twenty-two.
+
+--- Chinese Annotation ---
+LinkedList 双向链。它背的是 Node<E> 链表，每个节点存 prev、next、item。add() 是 O(1)，但 getByIndex() 是 O(n)。在头端往里推，用 addFirst()；在尾端往外拉，用 removeLast()——它们都是神速操作。这就是双端队列的威力。

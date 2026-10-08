@@ -1,0 +1,4 @@
+Before I run anything, you fill the hand table by hand. Three rows, one per iteration. For each element write the reference's static type — compile time, what may be called — and the object's dynamic type — run time, which body runs. The array of Shape is 8.1's zoo: the collection forgets specifics on purpose. Write your table answer now, then we live-run. Notice there is no Shape.draw() row — that body never executes. If your table says Shape three times, that is the common wrong answer. This table is your exam template, so let's build it properly.
+
+--- Chinese Annotation ---
+这个表格格式就是考试的代码阅读作答格式，所以一字不差地抄一遍。三轮迭代，三行。起决定作用的是动态类型列：左边是引用静态类型，右边是对象动态类型。两问规则依然有效：我可以调用什么？——左列。哪个体运行？——右列。注意缺失的第四行：Shape.draw() 从不运行，因为每个元素都重写了。如果某个子类没有重写，那一行就会打印基类体——现在就说出来，不要等着看。为什么我们在乎？因为这换来了可扩展性。

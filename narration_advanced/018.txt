@@ -1,0 +1,4 @@
+Before touring the families, the small print about getting elements INTO containers. Arrays.asList looks like a convenience — and it is — but the list it returns is fixed size, backed by the array: set works, add throws UnsupportedOperationException. That surprises people in exams and in production. Wrap it in a real ArrayList when you need growth. And remember Collections.addAll as the fastest bulk append. Predict line by line which calls compile and which throw — this snippet is a classic exam code-reading item.
+
+--- Chinese Annotation ---
+异常的实践。finally 不返回，除非你想把异常推给上层。try-with-resources 取代 finally：资源自动关闭。容器的 add()：IOException。字符串的 readLines()：NumberFormatException。实践原则：把异常处理当成一种文档。

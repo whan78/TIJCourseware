@@ -1,0 +1,4 @@
+Welcome back. In Part One you learned to think in objects: classes, composition, inheritance, polymorphism, and interfaces. Part Two turns those ideas into working machinery. We start with inner classes, then spend most of our time on the standard library — containers, exceptions, strings, generics, I/O — and finish with concurrency and graphical interfaces. Everything still comes from Thinking in Java, fourth edition, chapters ten to twenty-two. Same rules as before: code first, read it aloud, predict the output.
+
+--- Chinese Annotation ---
+欢回来。在第一部分，你学习了如何用对象思考：类、组合、继承、多态和接口。第二部分把这些想法变成实际可运行的机制。我们从内部类开始，然后在标准库上花更多时间——容器、异常、字符串、泛型、I/O——最后是并发和图形界面。所有内容都来自《Thinking in Java》第四版第 10 到第 22 章。和之前相同的规则：先写代码，再朗读，预测输出。

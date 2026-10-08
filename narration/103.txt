@@ -1,0 +1,4 @@
+Trace the forwarding chain aloud with me: export(Blob) calls legacy.csvLine(name, area). The adapter does no real work itself — it holds the legacy object and translates the call. Design vocabulary: the adapter has-a the legacy object — composition again, the same has-a lesson as chapter 7. The demo prints blob,1.0, produced entirely by shipped code we never modified. Wrap, do not modify — and that is exactly what Lab 9 will ask of you when old code meets the new interface.
+
+--- Chinese Annotation ---
+最后一个模式回答：谁有资格说 new？工厂是一个其实现负责创建对象的接口。客户端向工厂要一个 Shape，从不写下具体类名——看客户端上那个被划掉的幽灵 new Circle()。整个代码库里唯一的 new 住在围栏角落里，住在工厂内部。以后加一个 Triangle，客户端照样编译不动。这是项目的必需元素：产品是通过接口看到的对象。

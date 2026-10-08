@@ -1,0 +1,4 @@
+New scenario: shipped code you cannot edit but must use through a new interface. The adapter holds the legacy object and forwards — it translates one interface into another. Look at the picture: the old two-pin legacy plug, the adapter block with matching pins on both faces, the modern ExportStrategy socket. And the red tape matters: the old code stays shipped and untouched. In project vocabulary, the adapter has-a the legacy object and speaks ExportStrategy on its behalf.
+
+--- Chinese Annotation ---
+跟我一起念出转发链：export(Blob) 调用 legacy.csvLine(name, area)。适配器自己不做真正的工作——它持有遗留对象并翻译调用。设计词汇：适配器 has-a 遗留对象——又是组合，与第七章同一个 has-a 教训。演示打印 blob,1.0，完全由我们从未修改过的已交付代码产生。包装，不要修改——而这正是实验九在旧代码遇上新接口时要你做的事。

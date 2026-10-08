@@ -1,0 +1,4 @@
+Ten minutes of presentation and five of questions, per team. The rubric is fixed by ruling: design correctness forty percent, Strategy and Factory usage thirty, code quality twenty, and the question-and-answer defense ten. Your presentation must show the architecture UML, the Strategy slot, the Factory corner, and a live swap. Two things I will hold you to: encapsulation is graded, and each team opens by stating its weakest design decision first — that honesty is part of the exercise. The extra defense hour maps to your lab block, which closes the contact-hour ledger exactly.
+
+--- Chinese Annotation ---
+五道样题，强答案的模式是：先规则，再一行你自己项目里的代码，然后是后果。现场排练一道——第五题，展示你代码里的一次晚绑定调用。我要的是你已经操练过的分派追踪词汇：引用类型决定编译期，实际对象决定运行期，然后说出运行的那个方法。弱答案是一个词；强答案引用规则和行号。本周和队友互扮考官，把五道全练一遍。

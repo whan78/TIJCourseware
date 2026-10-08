@@ -1,0 +1,4 @@
+Truth in Java is a type, not a number — conditions MUST be boolean, full stop. Here is C's famous bug, fixed by design: in C, assignment inside a condition compiled silently, so if x = 5 assigned five instead of comparing. Java refuses — int cannot be converted to boolean. The same trap wears another coat in Lab 3 as B5, boolean ok = (a = 5). Today we build if, if-else, and else-if chains — and the attitude matters as much as the syntax: readability first, guard clauses beat nesting. The cleanest if-else is the one that leaves early.
+
+--- Chinese Annotation ---
+先拒绝无效输入并立即返回——这就是全部模式。卫语句让快乐路径保持在左边缘不嵌套，那是你视线所在的位置；比较左边的嵌套金字塔和右边的扁平卫语句。这段摘录来自几分钟后我们现场构建的程序——你会跟我一起敲完整个程序，所以盯紧这个 return。return、break、continue 的完整故事在 4.4 节；现在把 return 读作

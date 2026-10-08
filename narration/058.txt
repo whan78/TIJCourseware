@@ -1,0 +1,4 @@
+Four levels, four columns, one matrix to memorize. public works from anywhere. private only inside its own class. protected adds subclass access on top of package access. And the row I highlighted is the trap: no modifier at all is package-private — visible in the same package, invisible everywhere else. Say it plainly: no modifier does NOT mean public — big pitfall. Anchor back to the two trees from the previous slide: every column here is anchored to packages. This matrix is exam material, both multiple choice and code reading. Choosing the level is a design decision — that is the next slide.
+
+--- Chinese Annotation ---
+规则：选择仍然够用的最小级别。字段默认 private——永远如此。从最宽处开始，收窄直到编译器报错，然后恰好放宽一档。模型：公寓钥匙、楼层钥匙、家庭钥匙、大门。换一种方式看待那个错误：balance has private access in Account 是好消息——那是编译器在执行你的设计，在客户端破坏你的状态之前拦住它。protected 意味着对客户端而言如同 private——它自己的标注在第七章到来。顶层类只有 public 或包私有。封装是职业纪律。现在让我给你看不设访问控制的代价。

@@ -1,0 +1,4 @@
+Two-stage vote. Stage one: which static line prints first — the Insect one or the Beetle one? Lock your answer... Stage two: write the full output order. Here is the ladder to map onto: statics run base to derived, once per class; then instance fields; then constructor bodies, base to derived. After the reveal, pause on one line: j = 39 lands AFTER the Insect constructor printed j = 0 — the field was still a default zero when the base body ran. The common traps: swapping the two static lines, or writing j = 39 inside the Insect constructor output. Next: combine both reuse tools and the order is fixed too.
+
+--- Chinese Annotation ---
+知识点 7.4 是精通级，所以设成现场投票：构造一个既继承 BasicShape 又持有 Point 成员的 InstrumentedCircle——成员先，还是基类先？收集投票……先别放。一个类两样都做：既继承基类又持有成员。黑板上的顺序断言：基类构造器，然后自己的字段，然后自己的构造器体。想象盖房子：地基先进去，然后才装修房间。委托搭载在成员内部，但那是以后的口头补充。我们用已有的日志解决这个投票——下一页。

@@ -1,0 +1,4 @@
+Three constructors, one class, three different argument lists. I make three new calls: a with nothing, b with a name, c with a name and a price — three different paths, but every one of them funnels into the same real-work constructor that assigns this.name and this.price. Notice the this(...) lines: a call to another constructor, and it must be the very first statement. Chaining gets its own slide in a moment; for now just see that all three roads lead somewhere. The output is verified: unnamed, mouse, keyboard, and 54.45. Next question: how does the compiler pick between overloads? Vote time.
+
+--- Chinese Annotation ---
+重载：同名方法，不同参数列表——你只靠参数列表区分。返回类型不算数；两个只有返回类型不同的方法无法编译。解析遵循一架梯子：精确匹配先赢，然后是最小的加宽转换——char 到 int 到 long 到 double——varargs 是最后手段。想象能装下包裹的最小邮箱。把这对对比记在口袋里：重载换的是菜单；重写保持同一道菜但换了做法——完整对比在第七章。返回值规则是了解级。接下来投票——先承诺你的预测。

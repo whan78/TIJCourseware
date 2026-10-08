@@ -1,0 +1,4 @@
+You build this one with me, live. Before I type the switch, debate me: should the F case come first? ... We settle on guard first, then switch on the tens digit — the branch order is YOUR decision, and you have to justify it. The line points to pin: guard clause first, band equals tens digit, and case ten and nine stacked — the one deliberate fall-through. I'll type, you predict — call out the next line of output before I press Enter. Input ninety-five prints A. Then Lab 4: FizzBuzz one to thirty, sum of odds with foreach and continue, and GradeClassifier rejecting non-integer input with hasNextInt. Next chapter: who initializes your objects?
+
+--- Chinese Annotation ---
+谁来初始化字段？在 C 里你自己动手，否则后果自负。Java 的回答不同：构造器永远会先运行，然后你才能碰这个对象。构造器与类同名，而且完全没有返回类型——注意这个陷阱：如果你写出 void CtorChain 带空括号，编译器看到的是一个普通方法，不是构造器。把构造器想成出生证明办事员：没有对象能不登记就离开办公室。回忆第二章的图章图——字段从零或 null 开始；构造器才是真正有保证的值到位的地方。一个类可以提供多种出生方式——这就是重载，马上讲。

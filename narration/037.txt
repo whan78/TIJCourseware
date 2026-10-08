@@ -1,0 +1,4 @@
+Same array, all three forms — the first three loops print identically, and the output strip proves it. Point at the do-while line: only three values, because its condition is j less than three — so why does the while version print five? Because its condition runs against data dot length. The build-up runs one block per click: while, then do-while, then for. This is KP four point two — exam code writing and the lab both live here. Java adds a fourth form that hands you each egg — next.
+
+--- Chinese Annotation ---
+for-each——把每个鸡蛋递给你的循环，没有下标。你拿到的是元素，绝不是索引，所以没有可以出错的计数器。现场代码暂停：跟我一起把屏幕上的 for 循环改写为 foreach，然后问——我们失去了什么？索引，因此也失去了按下标跳过或重排的能力。还有那个陷阱，说清楚：在循环内给 v 赋值只改局部副本；数组毫无察觉。考试代码写作。循环的三种出口，三扇不同的门——下一页。

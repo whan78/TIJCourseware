@@ -1,0 +1,4 @@
+Chapter twelve, four hours, and it is exam-heavy. The headline: exceptions turn error reporting into object passing. We will build the mental model — throw, catch, propagate — then the class hierarchy, then finally and cleanup, then the design question of which exceptions to declare. The two exam priorities are tracing try-catch-finally order exactly, and deciding whether a situation describes a checked exception or a RuntimeException.
+
+--- Chinese Annotation ---
+同步的陷阱。synchronized 方法是锁住整个方法；synchronized 块只锁住 this。锁的争用是隐匿的——竞争激烈时，线程会被挂起。检查锁是否必要：有状态的 mutable 对象需要同步。

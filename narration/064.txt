@@ -1,0 +1,4 @@
+Scaffold from chapter five still holds: the base initializes first — always. Here is the shape of the rule: extends declares the is-a link, and the compiler inserts super() as the first line of every derived constructor, silently. So the Base constructor runs before the derived body ever starts. Pronunciation point: extends ends in a voiced /z/ sound. Two terms to fix now: the base class is the class being extended — most books call it the superclass — and the derived class is the one that extends — the subclass. TIJ says base and derived; recognize both names. KP 7.2 is weight one: the constructor-order exam item. Watch it happen in verified code next.
+
+--- Chinese Annotation ---
+在揭晓任何东西之前：哪一行先打印，为什么？给我你的答案……编译器把 super() 静默地插在第一行——这就是为什么 BasicShape 打印在 

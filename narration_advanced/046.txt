@@ -1,0 +1,4 @@
+Checkpoint on strings. Question one rehearses the discarded-return-value trap — the single most common string bug in student code. Question two is the substring boundary convention: inclusive start, exclusive end, which is exactly why the length arithmetic stays clean. Question three locks the equals-versus-equals-operator rule with the interning caveat. These three plus the StringBuilder loop rule cover the examinable core of this chapter.
+
+--- Chinese Annotation ---
+Checkpoint on strings. Question one rehearses the discarded-return-value trap — the single most common string bug in student code. Question two is the substring boundary convention: inclusive start, exclusive end, which is exactly why the length arithmetic stays clean. Question three locks the equals-versus-equals-operator rule with the interning caveat. These three plus the StringBuilder loop rule cover the examinable core of this chapter.

@@ -1,0 +1,4 @@
+Two-minute shock demo. Read the eight lines silently for three minutes, then vote: what does the program print? Lock a guess in your notes. Here is the run: P() says null. That is all you get today — the output only. The full trace is parked for Block B: super() runs first, the base ctor calls sound(), late binding dispatches to the override, which returns field s before it is initialized — null — and only then does s become "specific". If you guessed "specific" or "generic", those are the two common wrong answers, and the discomfort you feel right now is intentional: it makes the Block B analysis land. Write your guess down today.
+
+--- Chinese Annotation ---
+向下转型：把基类引用收窄为派生类型。往树上走永远安全——绿色。往树下走，Java 在运行时检查，而且可能失败——那就是悬崖边，ClassCastException。为什么在运行时检查？因为编译期的引用类型无法知道真实的对象；RTTI 是它知道的方式——运行时类型信息，逐字母读。instanceof 是悬崖前的护栏：先测试，再转换，安全路径绕着边缘走。现场崩溃在下一页。

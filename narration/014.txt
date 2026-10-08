@@ -1,0 +1,4 @@
+Chapter two: everything is an object. The precision goal for this chapter: never say "the variable is the object" — that sentence costs exam points all semester. A variable holds a reference; the object lives on the heap. We will cover scope versus lifetime, where things live across stack, heap, and static storage, arrays, and the class anatomy. By the end you will predict aliasing from diagrams and run your first program plus Predict-The-Output number one, on aliasing. Here is the sentence that fixes it.
+
+--- Chinese Annotation ---
+第二章：一切皆对象。本章的精确性目标：永远不要说

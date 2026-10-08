@@ -1,0 +1,4 @@
+Panels one and two are Lab-2 worksheet items S1 and S2, shown side by side — reference aliasing versus primitive value copy — and expanded from one-liners for display. Answer chorus-style before I reveal: nine, and five. If you said five for the first one, that is the C-style reading of this code — let's see what Java does differently; it is the PTO #1 trap resurfacing. Panel three closes the increment gap: vote on a and b separately before the reveal — a equals five is the surprise magnet. Postfix yields the OLD value, prefix yields the NEW one; the increment always happens, the only question is what the expression hands back. The verified output confirms: a=5, b=7, i=7.
+
+--- Chinese Annotation ---
+面板一和面板二是实验二练习的 S1 和 S2，并排展示——引用别名对原始类型值复制——为了展示效果从单行代码展开了。在我揭晓前齐声回答：九，和五。如果你第一题说五，那是这段代码的 C 语言式读法——看看 Java 有什么不同；这正是 PTO 第一题陷阱的回归。面板三收尾自增的分歧：揭晓前分别对 a 和 b 投票——a 等于五是最大的惊讶点。后缀给出旧值，前缀给出新值；自增总会发生，唯一的问题是表达式交回什么。已验证的输出确认：a=5, b=7, i=7。

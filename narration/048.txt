@@ -1,0 +1,4 @@
+Anticipation question first: if I delete the this dot and write name = name, what have I assigned? The parameter to itself — the field stays null. That is why this.name is the disambiguator: this.name is the field, plain name is the parameter. Every chain ends in the real-work constructor, the two-argument one. Trace objects a, b and c again: three doors, one funnel. And recite the rule with me: a call to this must be the first statement in the constructor. Exam code reading and the lab both lean on this slide. Next: static, one more time — now with a timeline.
+
+--- Chinese Annotation ---
+静态初始化块只在类加载时运行一次——不是每个对象一次。上面那条车道是类车道：类加载时经过一次，静态块触发，静态字段的盒子被创建。下面那条车道是对象车道：每个 new 都触发自己的爆发——先是实例字段，然后是构造器体——而类车道那条线再也不会被跨越。一条要刻进脑子的已验证错误：从 main 调用非静态方法，你会得到：non-static method X cannot be referenced from a static context。反射动作：还没有对象——先创建一个。finalize 机制和枚举深度留在自读；那里的考试权重是单独一道题。

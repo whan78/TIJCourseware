@@ -1,0 +1,4 @@
+The anonymous inner class is the workhorse idiom of this whole course part. Read the syntax aloud: new Contents, open brace, body, close brace — and since it is an expression, the semicolon. Inside the braces you are writing a class body: fields, initializers, methods — everything except a constructor, because there is no name to give it. The instance initializer clause is therefore how you do constructor-like work. Note the final parameter: the object escapes the method, so captured locals must be final. With an actual class instead of an interface, arguments in the parentheses go to that class constructor.
+
+--- Chinese Annotation ---
+遍历容器。三种方式：for-each、迭代器、Streams——Java 8 之后的新娘。对 List 来说，for-each 是最省事的；如果要删除，必须用迭代器；对数据进行变换，Streams 更雅观。同一个东西，三种吃法。

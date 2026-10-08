@@ -1,0 +1,4 @@
+Here is the settled vote: base first — always, even with members. Take the EX-7.1 log line by line and pin each one to the diagram's numbered arrows: BasicShape() ctor is rung "base" — super() ran first; InstrumentedCircle ctor start is where the body begins; Point(3,4) constructed is the member — built when the derived ctor reaches it; InstrumentedCircle ctor end closes the body. Keep this picture: it is the scaffold that 7.7 and 8.6 re-show. Next: same name, different meaning — name hiding.
+
+--- Chinese Annotation ---
+易混对第十号，一句话：字段戴名牌——名牌相同，基类版获胜；实例方法比武——更派生的体获胜。所以同名的字段或静态成员会遮蔽基类版本，而且只有方法能被重写。本章悄悄咬人的陷阱：把重写拼错了它照样编译——你只是新建了一个方法。给它加上 @Override，编译器就会回答 

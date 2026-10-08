@@ -1,0 +1,4 @@
+The final glossary page covers polymorphism and interfaces, and closes with the full list of easily-confused pairs. One revision tip above all: for each pair, build one tiny example where mixing them up changes the behavior — that single example is worth more than reading the definitions ten times. That completes the course. Well done.
+
+--- Chinese Annotation ---
+最后一张词汇表页覆盖多态与接口，并以完整的易混对清单收尾。复习技巧头一条：对每一对，构造一个把它们弄混就会改变行为的小例子——一个小例子胜过把定义读十遍。课程到此完结。干得好。

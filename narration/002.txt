@@ -1,0 +1,4 @@
+Here is the course info and our weekly rhythm. Every week pairs a one-hour lecture with a one-hour lab, and the pairing matters: every lab reuses the classes built in lecture, so skipping lecture makes lab twice as hard. The textbook is Thinking in Java, fourth edition, chapters one through nine. All slide code is verified on OpenJDK seventeen, and labs build on the previous week's classes, so falling behind compounds quickly. Office hours are posted on the course site. One practical note for Chinese-locale Windows machines: compile with javac -encoding UTF-8 to avoid charset trouble. Here is the whole course on one slide.
+
+--- Chinese Annotation ---
+这是课程信息和每周节奏。每周由一小时讲授加一小时实验组成，这个搭配很重要：每次实验都会复用讲授中构建的类，所以缺课会让实验难度翻倍。教材是《Thinking in Java》第四版，第一章到第九章。所有课件代码都在 OpenJDK 17 上验证过，而且实验是在上一周类的基础上叠加的，一旦掉队就会越积越多。答疑时间公布在课程网站上。给中文环境 Windows 机器的一个实用提示：编译时请用 javac -encoding UTF-8，避免字符集问题。下面把整门课放在一页幻灯片上。

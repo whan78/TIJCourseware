@@ -1,0 +1,4 @@
+We take the monster apart joint by joint, in execution order. Trap A: field initializers run after the base constructor, so s was still null. Trap B: sound() late-binds to the derived body, so the base constructor dialed the override. Trap C: the base constructor ran on a half-built object. Put together: the base ctor dialed a number only the derived class could answer — before its memory existed. The prevention lesson is a design rule, not a parlor trick: never call overridable methods from constructors. Rehearse the exam format with me — rule, then trace, then the output line.
+
+--- Chinese Annotation ---
+三个快答题，每题六十秒，答案写在小白板上。D1：哪个 tag？字段早绑定，所以 Base.tag。D2：静态成员按引用类型解析，所以 Base 的 who() 运行。D3 是要刻进去的那道：重载调用在编译期解析——与重写调用形成精确对照，后者在运行期分派。继续之前一个口头条目，值一道选择题：协变返回类型——重写可以返回基类返回类型的子类型。接下来是契约。

@@ -1,0 +1,4 @@
+Everyone on your feet for this one. The floor line: left wall is "is-a → extends", right wall is "has-a → field". I will post eight cases one at a time — Car–Engine, Circle–Shape, Library–Book, Duck–Bird, House–Room, Rectangle–Shape, Student–Person, Car–Vehicle. Stand on the side you believe, and after each one I will ask someone to justify with the is-a sentence test: "a car IS-A vehicle" checks out; "a car IS-AN engine" fails — a car HAS-AN engine, that is composition. And the is-like-a middle ground from the text: a car is-like-an engine if it uses one but is not one — still composition. Default ruling for this course: when in doubt, composition. Override was just named here — its mechanism is 8.2 territory. Two modifiers finish the toolkit next.
+
+--- Chinese Annotation ---
+跟我齐声操练这句话一遍：

@@ -1,0 +1,4 @@
+Three reading habits for this deck. First, any new term appears in a callout box with its pronunciation and a one-line definition — use those boxes for revision. Second, on code slides, type the code, don't photograph it; your fingers learn what your eyes miss. Third, PTO means Predict The Output — you vote before I reveal, using cards or mini-whiteboards. Most weeks end with a lab-handoff slide, so you always know what is due. And the two-minute rule: if a snippet surprises you for more than two minutes, draw the stack-and-heap picture first. Week one — why do we even need objects?
+
+--- Chinese Annotation ---
+读这份课件的三个习惯。第一，任何新术语都会出现在带发音和一行定义的标注框里——复习时就用这些框。第二，代码幻灯片要动手敲，不要拍照；手指学到的比眼睛看到的多。第三，PTO 的意思是 Predict The Output（预测输出）——在我揭晓答案之前你们先投票，用投票卡或小白板。大多数周的结尾都有实验交接页，让你清楚该交什么。还有两分钟法则：如果一段代码让你困惑超过两分钟，先画出栈和堆的示意图。第一周——我们为什么需要对象？

@@ -1,0 +1,4 @@
+Three exits, three doors. Return leaves the METHOD — the whole building. Break leaves the LOOP — the room. Continue skips to the next pass — back of the queue. Before I trace anything, answer me: which value kills this loop, and what exactly does continue skip? Collect your answers first. Now trace by hand: four printed, seven printed, one skipped by continue, nine hits break — output four seven two. That two-step order forces you to reason about control flow instead of pattern-matching. One compiler note: code after a guaranteed return or break is an unreachable statement error. One more branch machine — with a famous trap — next.
+
+--- Chinese Annotation ---
+switch 按值选择分支——这里是分数的十位数字。没有 break 意味着执行会跌落到下一个分支：静默的，没有任何错误，而这正是它危险的原因——本章陷阱二号。唯一合法的跌落是刻意的叠放标签：case 10 和 case 9 共享 A 分支；其余全部 break。goto 在语言里存在，但我们从不使用——而且不考；这是选择题最爱出的陷阱。现在跟我一起把整个东西构建出来。

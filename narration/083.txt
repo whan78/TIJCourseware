@@ -1,0 +1,4 @@
+Write clients against the base type. Substitution: any derived works where the base is expected — the Shape-shaped socket accepts every plug. Extension: add types, never edit clients. And treat type checks scattered around the code as a design smell — if you keep asking which subtype this is, the abstraction is leaking. Program to the abstraction; distrust scattered instanceof. Your week-11 design will be graded on exactly this. Trap one hides where you would never look: private.
+
+--- Chinese Annotation ---
+快投票：重写一个 private 方法——打印什么？锁定答案。揭晓：基类版本。派生的 f() 是一个全新的、无关的方法；它从不参与继承。回忆核心图的蓝箭头和橙箭头？private 的 f() 根本不进入那个系统——编译期的蓝箭头看不见它，所以运行期的橙箭头没有东西可以重新瞄准。而 @Override 本可以标记它：那个注解是你的静默陷阱探测器。重定义 private 方法意味着没有多态，而且悄无声息。陷阱二和陷阱三，放进一个已验证程序。

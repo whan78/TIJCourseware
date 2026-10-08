@@ -1,0 +1,4 @@
+Here is the one idea the whole chapter rests on. When you instantiate an inner class, the resulting object silently carries a reference to the outer object that created it. The compiler inserts it; you never write it. That reference is why an inner class can read private outer fields — look at dest() touching contents directly. And it is why you cannot build a standalone inner object: there would be nothing to point at. In C++ a nested class is just a scoping convenience with no such link; in Java the link is the feature. Ask yourself as we go: who owns this hidden reference?
+
+--- Chinese Annotation ---
+集合接口：List、Set、Queue、Deque、Map。它们各有一套规则。Map 把值和键配对——而 Java 的 Map 里，键可以是 null，但值不行。把所有容器都记进卡片：List 有序可重复，Set 无序唯一，Queue FIFO，Deque 双端。

@@ -1,0 +1,4 @@
+Remember KP 8.2: the abstract class exists so the late-bound call has something to aim at. An abstract class may hold state, concrete code, and promises; an abstract method is declared with no body, and every subclass must fill it. Why forbid instantiation? Because a promise without a body cannot run. Keep the model in mind: a form with some fields pre-filled and some fields blank. The illegal-instantiate moment is the next slide, right after the code.
+
+--- Chinese Annotation ---
+看 label()：一个调用抽象方法的具体方法。共享代码信任每个子类去填补空白——BasicShape 写模板，Disc 补上缺失的 area() 体。Disc 兑现承诺并原封不动地继承共享的 label() 代码。这就是半个契约：状态、共享的具体代码，和一个刻意的空洞。这是知识点 9.1，精通级，现在就精通它。一个已验证程序同时展示两种契约风格。

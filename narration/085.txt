@@ -1,0 +1,4 @@
+Three mini-votes, one per output line. First: ref.speak() — Sub.speak: methods are late-bound. Second: ref.tag — Base.tag. Fields are early-bound; the reference type wins. Third: ref.who() — static Base.who. Static methods are resolved by the reference type. Here is the field picture: the gray early-bound arrow goes straight to the reference type's field, the Sub object's own tag sits ignored, while the orange late-bound arrow still reaches speak(). The board rule goes on the side board and stays with us through Block B: late binding applies to instance methods ONLY. Static binding, dynamic dispatch — one breath each. Trap three is the nastiest: constructors that call overridable methods.
+
+--- Chinese Annotation ---
+这个陷阱是你已有的三样东西的联合：S52 构造梯子、基类先行规则、和晚绑定。构造器顺序是基类先行——所以基类代码运行在一个半成品对象上。如果基类构造器调用了可重写的方法，派生体就会运行——看橙色箭头，与核心图同一套颜色码——但派生字段还没有初始化。一句话：在基类构造器期间，你的对象只建成了一半——它调用的任何方法不得依赖尚不存在的部分。第二次快投票：radius 变体——半成品对象只能给出默认的 0.0。

@@ -1,0 +1,4 @@
+Same machinery as KP 8.2, new contract type: show takes a Describable, and d.describe() binds late. Vote first: does this compile, and if yes, what prints? Write your prediction, then vote. Rock and Chair share no base class — the interface is their only common type, and the dispatch machinery does not care that they are unrelated. After the reveal I remove public from describe() and recompile: attempting to assign weaker access privileges. That is CH9 pitfall number two, so keep it in your error guide.
+
+--- Chinese Annotation ---
+先说 public 规则：实现方法必须是 public，因为契约承诺的是公共服务。这是学生第一次实现接口时的头号编译错误——attempting to assign weaker access privileges——时间允许的话我们再看一遍。第二：一个类可以同时实现多个接口。这抢在提问之前回答了 C++ 的多继承问题，因为接口不携带状态也没有体。总结句：接口对抽象类，是清单对半建成的房子。接下来是你的项目要求的那个模式。

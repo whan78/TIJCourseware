@@ -1,0 +1,4 @@
+A dense slide — I reveal it in two beats: the stamp picture first, the code second. A static field is one whiteboard for the whole class; an instance field is each student's own notebook. Watch for the classic error of calling a non-static member from main — the compiler says "non-static variable x cannot be referenced from a static context". For parameters and arguments, keep the mailbox picture: the parameter is the mailbox; the argument is today's letter. Let the shared counter sink in before we move on — next we dissect a complete program.
+
+--- Chinese Annotation ---
+一页信息量很大的幻灯片——我分两拍揭示：先看图章图，再看代码。静态字段是全类共用的一块白板；实例字段是每个学生自己的笔记本。注意从 main 里调用非静态成员这个经典错误——编译器会说 

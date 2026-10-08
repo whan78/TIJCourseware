@@ -1,0 +1,4 @@
+Downcasting: a base reference narrowed to a derived type. Up the tree is always safe — green. Down the tree, Java checks at run time, and it may fail — that is the cliff edge, ClassCastException. Why check at run time? Because the compile-time reference type cannot know the real object; RTTI is how it knows — run-time type information, read letter by letter. instanceof is the guard rail before the cliff: test first, cast second, and the safe path goes around the edge. The live crash is the next slide.
+
+--- Chinese Annotation ---
+现场演示。那个错误的转换编译得很好——编译器只看到一个 Shape，而把 Shape 转成 Triangle 看起来是合理的。取消注释，运行，然后一起读编译器的抱怨：ClassCastException——class Circle cannot be cast to class Triangle。当你遇到这个异常，问这个反射问题：对象是谁创建的？instanceof 守卫是安全模式：守卫、转换、使用。而 getClass().getSimpleName() 会说出堆上到底是什么的真相。中场：你的项目检查点。

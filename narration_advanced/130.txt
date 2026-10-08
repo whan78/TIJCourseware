@@ -1,0 +1,4 @@
+Chapter twenty-two, two hours — a survey of Swing, the GUI toolkit the book covers. The goal is not mastery but literacy: read a Swing program, know where the component tree comes from, place components with the three standard layouts, and wire behavior through the event model. Notice how much was already paid for: anonymous inner classes from chapter ten and the observer-like thinking from chapter nine's strategy work do the heavy lifting here.
+
+--- Chinese Annotation ---
+Chapter twenty-two, two hours — a survey of Swing, the GUI toolkit the book covers. The goal is not mastery but literacy: read a Swing program, know where the component tree comes from, place components with the three standard layouts, and wire behavior through the event model. Notice how much was already paid for: anonymous inner classes from chapter ten and the observer-like thinking from chapter nine's strategy work do the heavy lifting here.

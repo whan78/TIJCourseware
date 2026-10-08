@@ -1,0 +1,4 @@
+Five priorities, countdown order. One: drill 8.2, 9.2, 9.1, 7.2 and 5.1, in that order. Two: the trap cluster is one ladder — draw it. Three: answer format — rule, then trace, then output. Four: the two-minute rule — draw the picture before you compute. Five: when an error appears, name the message and check the first suspect. Rank yourself on the five chips tonight and drill your weakest first. And hear me clearly: the optional items are not examined, and the one-multiple-choice items need one read-through each, no drills.
+
+--- Chinese Annotation ---
+我们在起点闭合圆环：一本书，一个理念——相互提供服务的对象。答疑时间公布在课程网站；把你的梯子图带来，我和你一起批注。答辩按 B 阶段日程进行，今晚查好你的时段。接下来是数据结构，你在那里遇到的每个容器、迭代器和比较器都是接口契约——这门课是它们全部的地基。你已经会说对象了。继续小心地瞄准箭头。

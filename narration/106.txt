@@ -1,0 +1,4 @@
+This is the destination slide — everything from the services idea to the slot converges here. Read the skeleton as one piece: the client holds only the two interface and abstract types, new appears only inside the factories, and strategies plug in and out at run time. Pair-design sprint: two teams sketch their own mapping on the board, and we check each sketch against the three bullet rules. Extension hooks if you finish early: add Triangle and TriangleFactory with no client change, or a CompareStrategy family to prove the design is general. Now build it for real.
+
+--- Chinese Annotation ---
+实验九是项目的评分架构里程碑。拿出你第九周检查点的设计并重构：识别变化之物，命名策略接口，给出至少两个实现，为每个产品族构建一个工厂，画出与锚点形状一致的 UML，并截一张策略现场切换的截图。答辩时会被要求指向你的策略槽位。客户端里仍然握着具体类型引用的团队会收到我的问题：哪个 new 是你被允许写的？

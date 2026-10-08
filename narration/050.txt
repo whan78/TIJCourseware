@@ -1,0 +1,4 @@
+Garbage collection reclaims objects that no live reference can reach. Reachable means someone still aims an arrow at you. Look at the graph: the main root reaches the chain through references a, b and c — every one of those objects has a path from a live reference. The island is different: two objects pointing only at each other. No path from any live reference, so both are collectable. Quick poll: which object can GC collect — point at the island or at the chain? And remember, you never free memory yourself; there is no free() in Java. finalize exists but is unreliable — never plan around it. But GC only reclaims memory.
+
+--- Chinese Annotation ---
+GC 管内存——只管内存。文件、套接字、数据库连接：垃圾回收器永远不会替你关闭它们；你要自己释放。这是我在这一节最在乎的素养目标：资源管家意识——你打开的每个资源，都要在打开之前写好释放计划。看清单：堆内存挂在 GC 的职责下打勾；文件句柄、套接字和数据库连接挂在你自己的职责下，打着叉，盖着红章：无自动清理。我们保持这个框架，跳过 finalize 深挖——理解级，考试简答。现在到来的是整门课考试陷阱的根：初始化顺序。

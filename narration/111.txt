@@ -1,0 +1,4 @@
+Three rapid items, sixty seconds each, answers on your whiteboards. D1: which tag? Fields are early-bound, so Base.tag. D2: statics resolve by reference type, so Base's who() runs. D3 is the one to burn in: an overloaded call is resolved at compile time — the exact contrast with overridden calls, which dispatch at run time. One spoken item before we move on, worth a single multiple-choice: covariant return type — an override may return a subtype of the base return type. Contracts next.
+
+--- Chinese Annotation ---
+本轮四道题。D4：你永远不能 new 一个抽象类——那是招牌错误十一号。D5：实现方法必须是 public，否则你会得到 weaker-access 错误。D6：Rock 和 Chair 没有共享基类，所以参数必须是接口类型。D7 是考试简答：抽象类是半建成的房子，接口是一张清单——我要的是那两句模型句子，不是含糊的散文。旁边提醒一句：接口分派运行的是你从向上转型就已经认识的同一套机器。构造器和静态成员，最后一轮操练。

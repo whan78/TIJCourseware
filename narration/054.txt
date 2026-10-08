@@ -1,0 +1,4 @@
+The rule stands: fields in textual order, then the constructor body, then method calls. Now the book warning, and it is a real one: the fourth-edition print shows an interleaved listing with Window(33) before Window(3) — that contradicts JLS 12.5, and JLS 12.5 agrees with our verified run on JDK 17. On the exam, the ladder rule wins over any book printout. The attitude I want you to keep: when a printout and a rule disagree, verify with a test — skepticism is a professional skill. Left column crossed out in red, right column carries the green check. Next: arrays get their own initialization rules.
+
+--- Chinese Annotation ---
+三种形式。像 {1, 2, 3} 这样的花括号列表是聚合初始化——只在声明处合法。new int[4] 是动态的：四个槽位，全部默认为零。放大重赋值：c = new int[] { 5, 6 }——变量一旦存在，裸花括号就没了；重新赋值需要 new int[] 形式。还有 varargs：int... numbers 表示调用者可以传任意个数，甚至零个——不带参数调用 sum 打印 0，因为 varargs 变成了空数组。输出已验证：3 0 5，然后 true，然后 10，然后 0。聚合加枚举的细节留在注释里。测验，然后实验。

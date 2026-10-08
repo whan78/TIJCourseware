@@ -1,0 +1,4 @@
+Four pillars in one picture. Encapsulation hides internals behind a controlled interface. Inheritance means a new class is a kind of an existing one. Polymorphism means one call site with many behaviors, chosen at run time. Composition builds by holding other objects. Now think-pair-share, ninety seconds: name three objects in this classroom and their services — I will collect four answers, and partial answers are welcome, tell me what you have. Say pol-ee-MOR-fizm with me, twice. Note that interface here means the set of requests; the Java keyword sense returns at 9.2. Why hide anything? Next slide.
+
+--- Chinese Annotation ---
+四大支柱在同一张图里。封装把内部细节隐藏在受控接口之后。继承意味着新类是现有类的一种。多态意味着一个调用点有多种行为，在运行时才确定。组合通过持有其他对象来构建。现在做

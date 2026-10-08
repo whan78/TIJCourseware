@@ -1,0 +1,4 @@
+LinkedList moonlights as every linear structure. Through push, pop, and peek it is a stack — last in, first out, so three comes off first. Through offer, poll, and peek via the Queue interface it is a queue — one entered first and leaves first, from the other end. Same object, two disciplines, purely by choice of method names. Also learn the two failure modes: the pair peek and poll return null on empty, while element and remove throw NoSuchElementException. Exam question: given this sequence of calls, what prints? Trace it now.
+
+--- Chinese Annotation ---
+包装类的妙用。Integer、Character、Boolean 等是值类的包装器。装箱和拆箱是反复发生的：x = null 时 Integer 装箱为 null。自动装箱有一个隐陷：缓存 -128 到 127 之间的 Integer 实例是共享的。

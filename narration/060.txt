@@ -1,0 +1,4 @@
+Interaction across two slides: for each of the four members — balance, deposit, getBalance, main — what breaks if we make it public? Collect your answers now, we resolve them on the next slide. Before the run, predict the printed balance. Here is the program: a.balance = -999999 compiles without a whisper. No guard, no error, no trace — the output is minus 999999.0. Silent state corruption: compiles is not the same as correct. The padlock on that field box is wide open. Keep your four answers in hand — now the same class, defended.
+
+--- Chinese Annotation ---
+同一个类，设防版：balance 是 private，deposit 带一个拒绝一切非正数的守卫，getBalance 是只读视图。坏值被拒绝，不被存储——输出已验证：100.0。直接写 a.balance = -999999 现在编译失败：balance has private access in Account。把这个错误当好消息读——编译器在执行你的设计。解决上一页的四个答案：balance 改为 private 并配带守卫的修改器；deposit 在这里是包私有，足够了；getBalance 是包私有的只读视图；main 保持 public，因为它是入口点，不是设计选择。你的实验：收紧一个漏水的类。

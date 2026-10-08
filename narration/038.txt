@@ -1,0 +1,4 @@
+For each — the loop that hands you every egg, no index. You get the ELEMENT, never the INDEX, so there is no counter to get wrong. Live-code pause: convert the for loop on screen to foreach with me, then ask — what did we lose? The index, and therefore the ability to skip or reorder by position. And the trap, clearly: assigning to v inside the loop changes only the local copy; the array never notices. Exam code writing. Three exits from a loop, three different doors — next.
+
+--- Chinese Annotation ---
+三个出口，三扇门。return 离开方法——整栋楼。break 离开循环——这个房间。continue 跳到下一轮——排队末尾重新开始。在我追踪任何东西之前，先回答：哪个值杀死这个循环？continue 到底跳过什么？先收集你们的答案。然后手写追踪：打印四，打印七，continue 跳过一，九触发 break——输出四七二。这个两步顺序逼你推理控制流，而不是模式匹配。一条编译器备注：在保证执行的 return 或 break 之后的代码是

@@ -1,0 +1,4 @@
+Two votes — phrases one to three. First: c is a char, which f runs? Second: 10L is a long. Write your predictions, then we reveal. The verified answer: f(c) prints f(int) and f(10L) prints f(long). Widening beats everything: char widens to int, the smallest applicable type. If nothing widening fits, the compiler boxes; varargs is the last resort — that part is not on the exam ladder. The common wrong answer is f(double), because people reach for the biggest type. And note: overload resolution is a compile-time choice — we meet its run-time twin much later in the course. Follow-up, live: add f(char) and rerun — now it wins.
+
+--- Chinese Annotation ---
+如果你一个构造器都不写呢？编译器会送你一个免费的无参构造器。但只要你写了自己的任何一个构造器，免费的这个就消失了。模型：备用钥匙只在你从不自己配钥匙时存在。看现场演示：我注释掉 CtorChain 里的无参构造器再编译——new CtorChain() 现在失败，报错：constructor CtorChain in class CtorChain cannot be applied to given types。带着反射读错误：数参数的个数和类型。自己写了构造器就把默认的弄没了？正是如此。这样的编译错误陷阱在考试里。下一个：在内部掌控全局的关键字——this。

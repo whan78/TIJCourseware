@@ -1,0 +1,4 @@
+Four representative teams pitch: three minutes each, then two minutes of peer feedback. Everyone else submits the design slide for written feedback in lab. Use the sentence starters on screen — I like, I worry, what if — and keep the feedback at the phrase level; this is an English-medium course, so phrase-level feedback beats grammar corrections. As I listen, I am noting teams whose design has no base-type abstraction — that is the most common finding at this checkpoint, and I will send those teams to office hours. Lab: prove zero client edits.
+
+--- Chinese Annotation ---
+实验八，检验可扩展性声明。从 DispatchPTO 出发：添加一个 Hexagon 类，在数组初始化器里加一行，render 循环必须保持逐字节不变。交付物是证明客户端未被触碰的 diff——评分工件是 diff，不是新类。如果你的 diff 显示循环内部有改动，那就不是扣分，而是一次设计谈话。多态你学会了。现在：契约。

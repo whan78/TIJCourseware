@@ -1,0 +1,4 @@
+The smallest complete picture of the mechanism. Method f declares throws Exception in its signature — that is the promise — and uses throw to actually raise an object. The moment the throw executes, the remaining try statements are skipped, control jumps to the matching catch, prints the message, and then — this is the part students miss — execution continues normally after the try statement. The program is not dead; the error was handled. Trace the three console lines in order and you understand the whole mechanism.
+
+--- Chinese Annotation ---
+线程的同步。Java 的 synchronized 是监视器模式。Java 提供的是细粒度锁。ConcurrentHashMap 用分段锁：16 个子锁。ConcurrentLinkedQueue 是无锁的。

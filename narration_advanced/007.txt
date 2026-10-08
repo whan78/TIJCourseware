@@ -1,0 +1,4 @@
+This is the pattern that justifies inner classes. The private inner SequenceSelector implements Selector, and selector() returns only the interface — clients upcast without knowing any concrete name. End, current, and next read the private array of the outer Sequence directly; with a top-level class we would need accessor methods or fields we did not want to expose. Second benefit: since the selector must remember which sequence it walks, keeping state in an object — an iterator object — is natural. Predict the console line, then we modify Sequence to add a reverse selector in the lab.
+
+--- Chinese Annotation ---
+删除元素。remove() 是踢出去，而不是删掉。迭代器的 remove() 只能在当前元素之后——这是 Java 对安全的体现。for-each 循环里不能删除，要么用迭代器，要么收集后统一删。常见的错误：异常的 ConcurrentModificationException 来自集合被修改的事实。

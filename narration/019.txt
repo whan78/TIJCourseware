@@ -1,0 +1,4 @@
+Arrays are objects. new int bracket three creates an object on the heap; slots default to zero, false, or null; length is fixed at creation — here, four. The first three slots hold references to the Strings Ada, Bo, and Cy; the fourth slot points at nothing, and that is exactly where NullPointerException is born. Use the exam phrasing: the array itself is an object. Aggregate initialization rules come in chapter five; today, just the picture. Variables vanish at braces — objects do not. Scope versus lifetime is next.
+
+--- Chinese Annotation ---
+数组是对象。new int[3] 在堆上创建一个对象；槽位默认为零、false 或 null；length 在创建时就固定了——这里是四。前三个槽位持有指向字符串 Ada、Bo、Cy 的引用；第四个槽位什么都没指，而这正是 NullPointerException 的诞生地。用考试措辞说：数组本身就是对象。聚合初始化的规则在第五章；今天只要图景。变量随花括号消失——对象不会。接下来：作用域与生命周期。

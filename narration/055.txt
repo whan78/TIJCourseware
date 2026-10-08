@@ -1,0 +1,4 @@
+Three forms. Brace lists like {1, 2, 3} are aggregate initialization — legal only at the declaration. new int[4] is dynamic: four slots, all defaulted to zero. Zoom on the re-assignment: c = new int[] { 5, 6 } — once the variable exists, bare braces are gone; re-assignment needs the new int[] form. And varargs: int... numbers means the caller passes any count, even zero — sum with no arguments prints 0 because the varargs becomes an empty array. The output is verified: 3 0 5, then true, then 10, then 0. Aggregate-plus-enum details stay in the notes. Quiz, then lab.
+
+--- Chinese Annotation ---
+三道小白板题，快问快答。一：静态块何时运行？类加载时，一次。二：字段在构造器体之前还是之后初始化？之前，按文本顺序。三：如果只有三参数构造器存在，new CtorChain 传一个 String 能编译吗？不能——cannot be applied to given types。然后实验五：拿 PTO 第五题的 House 程序，加一个静态块打印 House static 外加一个静态字段，重新预测，运行。你的实验交付物：先预测输出，再贴实际日志——两者之间的差距就是你的评分。House 实验是同一架梯子多一级台阶。第六章：谁被允许碰你的对象？

@@ -1,0 +1,4 @@
+Three whiteboard questions, quick fire. One: when does a static block run? Once, at class load. Two: do fields initialize before or after the constructor body? Before, in textual order. Three: does new CtorChain with a single String compile if only the three-argument constructor exists? No — cannot be applied to given types. Then Lab 5: take PTO number five's House program, add a static block printing House static plus one static field, re-predict, run. Your lab deliverable: predicted output first, then the actual log — the gap between them is your grade. The House lab is the same ladder with one more rung. Chapter six: who is allowed to touch your objects?
+
+--- Chinese Annotation ---
+包是一组有名字的类——库单元。全限定名很长：net.mindview.util.Vector，而这个长度正是要点——包名在全世界唯一，这就是为什么我们用倒写的域名来构建它们。import 只是缩短名字：import 之后，光写 Vector 就够了。看这两棵树：net.mindview.util 装着 Vector、List 和 Sorter，姊妹包 com.myproject 装着 Account。类路径的配置只在实验里。真正的威力在下一页到来：包不只是组织——它是访问边界。包内和跨包，谁可以用什么？

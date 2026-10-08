@@ -1,0 +1,4 @@
+Here is my promise for this final block: the trap cluster — 5.7, 5.8, 7.10 and 8.6 — is one mechanism in disguise. If you can draw this ladder from memory, you can answer every initialization-order item on the exam. We have met every rung before: the loading and static steps, the field-first rule, the constructor ladder, and the half-built object. This page is your printed answer key for the week-eight quiz as well. Silent three minutes coming up — then you vote on the monster.
+
+--- Chinese Annotation ---
+与每次预测输出相同的规则：静默三分钟，写下答案，然后全班投票——静默窗口内不许提问。你们中有些人四周前预演过这个程序，而我指望你们已经忘了追踪；预期和上次一样的错误答案分布。提交前仔细读那个构造器调用。投票结束后我会揭晓答案，完整复盘留给下一页。我们把这个怪物一节一节地拆开。

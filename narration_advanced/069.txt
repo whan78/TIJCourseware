@@ -1,0 +1,4 @@
+Checkpoint on generics, the hardest quiz of the term. Question one ties new-T to erasure and expects the factory workaround. Question two rehearses the producer-side argument — the wildcard might be a list of oranges, so no insert is provable. Question three closes the loop with invariance and its read-only escape. If all three felt mechanical, the wildcards slide has done its job; if not, redraw the PECS table from memory before moving on.
+
+--- Chinese Annotation ---
+Checkpoint on generics, the hardest quiz of the term. Question one ties new-T to erasure and expects the factory workaround. Question two rehearses the producer-side argument — the wildcard might be a list of oranges, so no insert is provable. Question three closes the loop with invariance and its read-only escape. If all three felt mechanical, the wildcards slide has done its job; if not, redraw the PECS table from memory before moving on.

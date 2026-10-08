@@ -1,0 +1,4 @@
+Lab one. Each team gives a one-line object-candidate pitch first — park anything off-topic for office hours. Then we set up JDK seventeen and your IDE and run the first compile cycle. Watch the demo points: if I rename the file so it no longer matches the public class, the compiler complains it should be declared in a file named HelloJava.java. String bracket args carries messages at startup. javac compiles, java runs. Your lab deliverable: predicted output first, then the actual log. You just created your first object — now let's see what a variable really holds.
+
+--- Chinese Annotation ---
+实验一。每个团队先做一句话的对象候选提案——跑题的内容留到答疑时间。然后我们安装 JDK 17 和 IDE，跑第一次编译循环。注意演示要点：如果我把文件重命名得与 public 类不再一致，编译器会提示它应当声明在名为 HelloJava.java 的文件里。String[] args 在启动时承载消息。javac 编译，java 运行。你的实验交付物：先写预测输出，再贴实际运行日志。你刚创建了第一个对象——接下来看看变量到底装着什么。

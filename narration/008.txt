@@ -1,0 +1,4 @@
+Here is the picture for the whole course. An object is a circle of services: state in the dark core, methods at the ports on the shell. Clients send messages — method calls — that aim only at the ports, never at the core. Watch the arrows, not my keyboard. And remember: the class is the cookie cutter; objects are the cookies. One seed I will grow at 5.6: objects no reference can reach are reclaimed by garbage collection. That shell has a name: encapsulation — and three more pillars follow.
+
+--- Chinese Annotation ---
+这是整门课的核心图景。对象是一个服务之圆：状态在深色的核心里，方法在壳层的服务端口上。客户端发送消息——也就是方法调用——只瞄准端口，从不触碰核心。看箭头，别看我的键盘。记住：类是饼干模具，对象是饼干。留个伏笔，5.6 节会展开：没有任何引用能到达的对象会被垃圾回收收走。这层壳有个名字：封装——后面还有三大支柱。

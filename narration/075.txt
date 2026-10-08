@@ -1,0 +1,4 @@
+Class loading: the JVM brings a class in and initializes its statics once, before first use. Now the full ladder for a three-class chain — Animal, Dog, Puppy — drawn as three lanes through four stages. Stage one, each class loads on its own first use. Stage two, statics: Animal's, then Dog's, then Puppy's — once each, ever. Stage three, instance fields in order. Stage four, constructor bodies: Animal, then Dog, then Puppy. Base before derived — everywhere. Remember chapter five's three-rung ladder in the corner? Same ladder, more classes. And arrays are objects: they load and initialize through this same ladder too. The diagram label IS the exam vocabulary — the debrief figure reuses exactly this. Prove it to yourself in the lab next.
+
+--- Chinese Annotation ---
+实验七，交接实验。拿一个三类的链给它装上仪表：给每个构造器和每个静态块加一条 println。然后——在运行任何东西之前——预测两次构造的初始化日志。这个不对称就是全部 lesson：一次 new Dog() 加一次 new Puppy()，静态成员在两次运行中总共只触发一次。运行之后，把每一条现实与预测不同的行标注上解释它的梯子台阶。给卡住的人第十五句短语，逐字：

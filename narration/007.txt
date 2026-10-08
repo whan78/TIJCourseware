@@ -1,0 +1,4 @@
+Abstraction is the first move: extract the essential, ignore the irrelevant. Every object becomes a service provider. Here is a sixty-second demo — take a problem statement like course registration and pull out candidate objects: Student, Course, Registrar, each with two services. One warning from the term pack: abstract does not mean vague — it means selective. Also notice the -tion and -ment nominalizations: implement becomes implementation, and they recur in error messages all semester. So what exactly is an object? The next slide is the picture for the whole course.
+
+--- Chinese Annotation ---
+抽象是第一步：提取本质，忽略无关。每个对象都成为服务提供者。这里有个六十秒演示——拿一个像选课系统这样的问题陈述，抽出候选对象：Student（学生）、Course（课程）、Registrar（注册员），每个配两个服务。术语手册里有个提醒：抽象不等于模糊——它意味着有选择。另外注意 -tion 和 -ment 这类名词化后缀：implement 变成 implementation，它们整个学期都会在错误信息里反复出现。那么对象到底是什么？下一页是整门课的核心图景。

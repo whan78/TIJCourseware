@@ -1,0 +1,4 @@
+The static initialization block runs exactly once, when the class loads — not once per object. The top lane is the class lane: one crossing at class load, the static block fires, the static field box is created. The bottom lane is the object lane: every new fires its own burst — instance fields first, then the constructor body — and the class-lane line is never crossed again. One verified error to burn in: call a non-static method from main and you get: non-static method X cannot be referenced from a static context. The reflex: no object yet — create one first. finalize mechanics and enum depth stay in self-reading; the exam weight there is a single question.
+
+--- Chinese Annotation ---
+垃圾回收收走没有任何存活引用能到达的对象。可达意味着仍有人把箭头瞄准你。看这张图：main 根通过引用 a、b、c 到达这条链——其中每个对象都有从存活引用出发的路径。孤岛不同：两个对象只互相指向。从任何存活引用都没有路径，所以两者都可被回收。快速投票：GC 能收哪个对象——指孤岛还是指链？记住，你从不亲手释放内存；Java 里没有 free()。finalize 存在但不可靠——永远不要围绕它做规划。但 GC 只回收内存。

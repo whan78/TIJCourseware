@@ -1,0 +1,4 @@
+Lab 9 is the project's graded architecture milestone. Take your week-9 checkpoint design and refactor it: identify what varies, name the Strategy interface, give it at least two implementations, build a Factory for each product family, draw the UML to match the anchor shape, and capture a screenshot of a live strategy swap. In the defense you will be asked to point at your Strategy slot. Teams still holding concrete-type references in the client get my question: which new are YOU allowed to write?
+
+--- Chinese Annotation ---
+这是我对最后一个阶段的承诺：陷阱群——5.7、5.8、7.10 和 8.6——是伪装成一堆的一个机制。如果你能凭记忆画出这架梯子，考试里每一道初始化顺序题你都能答。每一级台阶我们都见过：加载与静态步骤、字段先行规则、构造器梯子、以及半成品对象。这一页也是第八周测验的印刷版答案钥匙。静默三分钟马上开始——然后你对这个怪物投票。

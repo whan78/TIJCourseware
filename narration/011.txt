@@ -1,0 +1,4 @@
+If you have written C, this is the map swap. In C, a pointer is a raw address and you can do arithmetic on it — walk it up and down the memory grid. In Java, a reference aims at an object and nothing more; there is no pointer math, the arrow can only aim. Above the Java panel is the rooted family tree: every class extends Object. This is the scaffold slide for chapter two — same diagram, new twist — so keep the picture from last week in mind, and memorize the shape. Enough theory — your project starts now.
+
+--- Chinese Annotation ---
+如果你写过 C，这就是地图切换。在 C 里，指针是原始地址，可以做指针运算——在内存网格上下移动。在 Java 里，引用只指向一个对象，别无其他；没有指针运算，箭头只能瞄准。Java 面板上方是生根的家族树：每个类都继承自 Object。这是第二章的脚手架幻灯片——同一张图，新的转折——把上周的图记在心里，把形状背下来。理论到此为止——你的项目现在开始。

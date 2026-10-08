@@ -1,0 +1,4 @@
+Two structural facts, and the slide stays light. First: a class may implement many interfaces — Java's answer to multiple inheritance, with no diamond problem because interfaces carry no state and no bodies. Second: an interface can extend another interface, and that arrow is solid — the inheritance arrow — the checklist simply grows longer. One caution for the exam: if two implemented interfaces declare the same method name, one signature satisfies both; conflicts are rare and resolvable, at most one multiple-choice item. The weight of this chapter sits on 9.2, 9.3, and 9.6.
+
+--- Chinese Annotation ---
+新场景：已交付的代码，你不能修改，却必须通过一个新接口来使用。适配器持有遗留对象并转发——它把一个接口翻译成另一个。看这张图：老式两脚遗留插头、两个界面插脚都匹配的适配器块、现代的 ExportStrategy 插座。红胶带很重要：旧代码保持已交付、未被触碰。用项目词汇说：适配器 has-a 遗留对象，并代表它说 ExportStrategy。

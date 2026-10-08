@@ -1,0 +1,4 @@
+Full circle: I named this shape back at the project kickoff, and here it is. Decoupling means parts can change independently. The Context holds a Strategy slot — just a reference typed to the interface — and the algorithm plugs into that slot. Watch what varies: the export format. It is isolated behind the slot, so adding XmlExport touches nothing else. This diagram is your project's required architecture: your design must contain this shape, and in the defense you will point at your own slot.
+
+--- Chinese Annotation ---
+这是与锚点图形状完全一致的骨架代码。ExportStrategy 是槽位的类型；CsvExportStrategy 和 TextExportStrategy 是插头，各自填上自己的导出体。Shape 保持抽象；策略实现接口。跟我追踪一次调用：strategy.export(s)。引用类型决定可以调用什么；插头对象决定哪个体运行——正是第八章那支橙色晚绑定箭头，换了新衣。客户端请求槽位，从不请求具体类。

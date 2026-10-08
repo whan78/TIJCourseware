@@ -1,0 +1,4 @@
+Chapter thirteen, three hours. Strings look familiar from day one, which is exactly why the traps survive: they are immutable, so every plus creates a new object; the toString habit, the equals habit, the loop-concatenation habit. We fix those, then look at the formatting mini-language and a first taste of regular expressions. Exam-wise expect code reading on immutability and a predict-the-output on formatting.
+
+--- Chinese Annotation ---
+Chapter thirteen, three hours. Strings look familiar from day one, which is exactly why the traps survive: they are immutable, so every plus creates a new object; the toString habit, the equals habit, the loop-concatenation habit. We fix those, then look at the formatting mini-language and a first taste of regular expressions. Exam-wise expect code reading on immutability and a predict-the-output on formatting.

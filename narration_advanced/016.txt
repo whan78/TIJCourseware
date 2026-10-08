@@ -1,0 +1,4 @@
+Start with the pain that motivates everything. Before generics a container held Object, so anything fit — an Orange in your apple basket — and the failure surfaced as a ClassCastException wherever you happened to read the element, possibly weeks of code away from the bad add. Generics move the check to the compiler: the declared List-of-Apples rejects Oranges on the spot and hands back Apples with no cast. Note the diamond on the right-hand side — pure inference. Everything else this chapter stands on this shift: run-time surprise to compile-time guarantee.
+
+--- Chinese Annotation ---
+Map 的遍历。四种方式：entrySet()、keySet()、values()、forEach。entrySet 最省事：一次取 key 和 value。记住：entry.getKey() 返回的是引用，不是副本。如果你要修改 entry 的 value，这个改动会直接写回到 map 里。

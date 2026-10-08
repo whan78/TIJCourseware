@@ -1,0 +1,4 @@
+Whole class writes the output order first — silent writing, three minutes. Then we vote by reading lines aloud in sequence, and only then do we run it. Point at w3: it is declared after the constructor in the text, yet its initializer runs before the body — textual order wins over layout. The verified sequence: Window(1), Window(2), Window(3), House(), Window(33), then f(). The common wrong answer puts House() first, because people read the file top to bottom. Trace it once more on the ladder: all instance field initializers, then the ctor body, then the method call. One book warning before we move on.
+
+--- Chinese Annotation ---
+规则成立：字段按文本顺序，然后构造器体，然后方法调用。现在说教材警告，这是个真警告：第四版印刷版展示的交错清单把 Window(33) 放在 Window(3) 之前——这与 JLS 12.5 矛盾，而 JLS 12.5 站在我们 JDK 17 验证运行这一边。考试时，梯子规则压倒任何书上的印刷。我希望你保持的素养：当印刷品和规则冲突时，用测试验证——怀疑精神是职业技能。左栏红叉划掉，右栏打绿勾。下一页：数组有自己的初始化规则。

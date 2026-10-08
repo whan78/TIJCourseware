@@ -1,0 +1,4 @@
+The rule: choose the minimal level that still works. Fields private by default — always. Start at world, narrow until the compiler complains, then widen exactly one notch. The model: apartment keys, floor keys, family keys, front door. And reframe the error: balance has private access in Account is GOOD news — that is the compiler enforcing your design, catching a client before it corrupts your state. Protected means private as far as the client is concerned — its own callout arrives in chapter seven. Top-level classes only get public or package-private. Encapsulation is professional discipline. Now let me show you what no access control costs.
+
+--- Chinese Annotation ---
+跨两页的互动：对四个成员——balance、deposit、getBalance、main——如果都改成 public，分别会坏掉什么？现在收集答案，下一页解决。运行之前，预测打印的余额。看这个程序：a.balance = -999999 编译通过，无声无息。没有守卫，没有错误，没有痕迹——输出是负 999999.0。静默的状态污染：能编译不等于正确。那个字段盒上的挂锁大敞着。把你的四个答案拿在手里——现在看同一个类的防御版。

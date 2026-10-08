@@ -1,0 +1,4 @@
+Whole-class vote: which lines print? Lock it in before I run anything. The live run shows test1(0), then test2(2), then expression is false — and test1(2) is NEVER called, because ampersand-ampersand stops at the first false. Most of you predicted three test lines; that is the trap this vote is built on. Now the follow-up: change the operator to double-pipe — if test1(0) or test2(2) — and only test1(0) prints. Second-operand side effects, like input-output or counters, are a real-world hazard; tie this to our attitude goal: verify with a five-line test before you trust any expression.
+
+--- Chinese Annotation ---
+全班投票：哪些行会打印？在我运行任何东西之前先锁定。现场运行显示 test1(0)，然后 test2(2)，然后表达式为 false——而 test1(2) 永远不会被调用，因为 && 在第一个 false 处就停了。大多数人预测三个 test 行都会打印；这道投票题钓的就是这个。接着追问：把运算符换成双或——if (test1(0) || test2(2))——只有 test1(0) 打印。第二操作数的副作用，比如输入输出或计数器，是真实世界的隐患；把它和我们的素养目标绑在一起：用一个五行测试验证之后，再相信任何表达式。

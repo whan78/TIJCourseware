@@ -1,0 +1,4 @@
+Summary in six lines. The hidden reference is the concept; dot-this, dot-new, and Outer.Inner are its syntax; upcasting behind interfaces is its purpose; the anonymous form is its most common everyday shape; static nested is the disciplined default when no outer state is needed; and closures plus control frameworks are the architectural payoff. For the lab you will extend the greenhouse control example with two new events and one anonymous factory. Next chapter we open the toolbox everyone uses daily: holding your objects — lists, sets, maps, and iterators.
+
+--- Chinese Annotation ---
+Set 的世界观。元素唯一，顺序不确定。HashSet 用哈希表实现，树状 Set 用红黑树。记住：把元素放到 Set 前，你需要它实现好 hashCode 和 equals。否则，重复添加一样的对象不会被识别。用 add() 的返回值测试：true 是新，false 是重复。

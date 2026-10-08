@@ -1,0 +1,4 @@
+Memorize this slide and half the chapter organizes itself. Collection is the root for individual elements; under it sit List, which promises sequence and accepts duplicates; Set, which refuses duplicates; and Queue, which orders by arrival or priority. Map is deliberately separate — it is not a Collection — because key-value is a different shape of thinking; you will still get collection views of keys and values when you need iteration. When you meet any new container class in the library, your first question is: which branch of this tree is it on?
+
+--- Chinese Annotation ---
+异常的层次。Throwable 是根，Error 是 JVM 错误，Exception 是可恢复的，RuntimeException 是编程错误。方法声明 throws：调用者必须捕获。try-catch-finally 的顺序：先 try，若异常再 catch，finally 总跑——这就是 finally 的保证。

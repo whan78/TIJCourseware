@@ -1,0 +1,4 @@
+Checkpoint on chapter eleven. Question one is the classic workload-to-container justification — I want the cost argument, not the class name alone. Question two probes the Arrays.asList backing-array trap: set works, add throws. Question three is the concurrent-modification discipline: iterator remove or collect-then-remove, never the list's own remove while the iterator is open. Anyone who can answer all three cold is ready for chapter seventeen's deep dive later in the term.
+
+--- Chinese Annotation ---
+并发的概念。多个线程共享同一个内存，竞态条件来自先看后改。volatile 保证可见性，synchronized 保证原子性。Java 提供了两套工具：一套是 synchronized，一套是 java.util.concurrent。

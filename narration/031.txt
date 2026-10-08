@@ -1,0 +1,4 @@
+Anything plus a String becomes text — and plus chains run left to right, so parentheses control whether you get math or text. Watch the last line: grade code equals grade plus one — remove the parens mentally and you get A1, the classic surprise. With parens it is 66, the character code plus one. The verified output shows all four lines, and the cast lines preview the next slide. One vocabulary word in passing, one breath only: 3.14, 'a', and "hi" are literals — values written directly in the source. And numbers have their own conversion story — next.
+
+--- Chinese Annotation ---
+三个动作，一行代码。提升是自动的——从小到大，无需任何标记。强制转换是你主动要求的：把类型放进括号，后果自负。截断是向零丢弃小数部分——(int) 3.99 是 3，不是 4；它从不四舍五入。编译器拒绝静默损失：int x = 3.99 是错误。跟我一起读这条消息，连同被动语态一起：possible lossy conversion from double to int——被编译器拒绝。考试里的预测输出题最爱这个：(int) 3.99 是 3。小结、测验和实验——下一页。

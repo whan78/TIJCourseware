@@ -1,0 +1,4 @@
+This is the week-eight in-lecture quiz, thirty minutes, silent, and it counts in the labs-and-quizzes twenty percent bucket. Exam answer format for every question: state the rule, trace the lines, then give the output. When I return these, the unified-ladder diagram is printed on the back — grade yourself the debrief way: name the ladder rung first, then the output line. Q1 is construct order with members. Q2 is static versus instance — one shared box. Q3 is the two-question rule from PTO number seven: which calls are legal versus which body runs. Everything so far was setup — chapter eight is the exam's center of gravity.
+
+--- Chinese Annotation ---
+这是章节开篇，先把地图跑一遍：是什么——运行时的晚绑定；形状如何——按动态类型分派；来自哪里——字段和静态成员的静态绑定；如何判断——分派追踪表；怎么应用——零客户端修改地扩展。知识点 8.1 和 8.2 是精通级。和第七章同样的向上转型——但这次我们调用一个方法。引用类型是 Shape；对象是 Circle。哪个体运行？这就是今天的问题，而我故意什么都不答。从这里开始一切都悬在一个词上：绑定。

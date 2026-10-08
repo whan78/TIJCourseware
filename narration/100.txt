@@ -1,0 +1,4 @@
+Here is the skeleton code for the exact shape of the anchor diagram. ExportStrategy is the slot's type; CsvExportStrategy and TextExportStrategy are the plugs, each filling in its own export body. Shape stays abstract; strategies implement the interface. Trace one call with me: strategy.export(s). The reference type decides what may be called; the plug object decides which body runs — exactly the orange late-binding arrow of chapter 8, back in new clothes. The client asks the slot, never a concrete class.
+
+--- Chinese Annotation ---
+两个结构事实，这页很轻。第一：一个类可以实现多个接口——Java 对多继承的回答，而且没有菱形问题，因为接口不携带状态也没有体。第二：一个接口可以继承另一个接口，那支箭头是实线——继承箭头——清单只是变长了。考试的一条注意：如果两个被实现的接口声明了同名方法，一个签名同时满足两者；冲突罕见且可解决，最多一道选择题。本章的分量压在 9.2、9.3 和 9.6 上。

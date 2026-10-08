@@ -1,0 +1,4 @@
+Two different questions. Scope is where a name is visible — space. Lifetime is how long it exists — time. Braces end names, not objects: temp died at the brace, but the String it pointed to lived on. Objects die by garbage collection, not by braces — and only when nothing can reach them. Do not confuse name legality with object existence; that contrast is the exam short-answer phrasing, and it is exactly what RefBasics' nested block showed. Now the unit that holds it all: the class.
+
+--- Chinese Annotation ---
+两个不同的问题。作用域是名字在哪里可见——空间问题。生命周期是它存在多久——时间问题。花括号终结的是名字，不是对象：temp 在花括号处死了，但它指向的 String 还活着。对象死于垃圾回收，而不是花括号——而且只有当没有任何东西能到达它时。不要混淆名字合法性与对象存在性；这个对比就是考试简答题的标准措辞，也正是 RefBasics 嵌套块演示的东西。现在来看承载这一切的单元：类。

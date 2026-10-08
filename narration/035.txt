@@ -1,0 +1,4 @@
+Reject invalid input first and return immediately — that is the whole pattern. The guard clause keeps the happy path un-nested at the left margin, where your eyes already are; compare the nested pyramid on the left with the flat guard on the right. This excerpt comes from the program we build live in a few minutes — you will type this whole program with me, so watch this return closely. The full return, break, continue story arrives at four point four; for now, read return as "the method is done, we leave". Repetition next — three loops that differ in ONE spot.
+
+--- Chinese Annotation ---
+三个循环，一个区别：条件在哪里被检查？while 先检查，所以可能一次都不运行。do-while 先执行循环体，所以至少运行一次——先检查后执行，对先执行后检查。for 把初始化、测试和更新打包在一个头部——计数器内建。琥珀色菱形标记的是检查点；三张幻灯片只需要这一个琥珀色。还要大声说出经典的差一错误陷阱：越过数组末尾一步，运行时就会抛出 ArrayIndexOutOfBoundsException。同样三个循环，真实数据——下一页。

@@ -1,0 +1,4 @@
+Checkpoint on annotations. Question one is the retention ladder — source, class, runtime — and what each level hides from reflection. Question two states precisely what Override protects against: the accidental overload, where a typo produces a new method instead of a changed one. Question three is definition syntax: an element without a default is mandatory at every use site. Two hours' material, all banked. Next: concurrency — the biggest conceptual step of the term.
+
+--- Chinese Annotation ---
+Checkpoint on annotations. Question one is the retention ladder — source, class, runtime — and what each level hides from reflection. Question two states precisely what Override protects against: the accidental overload, where a typo produces a new method instead of a changed one. Question three is definition syntax: an element without a default is mandatory at every use site. Two hours' material, all banked. Next: concurrency — the biggest conceptual step of the term.

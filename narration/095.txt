@@ -1,0 +1,4 @@
+Let us do this live. I uncomment the line, compile, and the compiler answers: BasicShape is abstract; cannot be instantiated. Read it aloud with me — this is error guide number eleven, the featured message of the chapter. Pronunciation watchlist: AB-stract, first-syllable stress. The reflex to memorize: use the abstract base type for the reference, hold a concrete subclass in it. BasicShape b = new Disc(2.0) — the base type names what the object can do, the subclass decides how. You will write and read this on the exam.
+
+--- Chinese Annotation ---
+先看脚手架：知识点 9.1 再来一次。接口没有状态也没有体——只有签名。当一个类实现接口时，它是在签署契约：我兑现这个承诺。这里是易混对第六号的那句话：抽象类给你一栋半建成的房子；接口递给你一张清单。看这张图——Rock、Chair 和 Disc 除了这一个类型外毫无共同点。不需要共享基类，所以契约跨越不相关的家族。这是知识点 9.2，精通级，最高优先级。分派机器在意 Rock 和 Chair 互不相关吗？下一页投票。

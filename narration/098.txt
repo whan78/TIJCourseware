@@ -1,0 +1,4 @@
+The public rule first: implementing methods must be public, because a contract promises public service. It is the number one compile error when students first implement interfaces — attempting to assign weaker access privileges — so we show it once more if time allows. Second: one class may implement many interfaces at once. That answers the C++ multiple-inheritance question before it is asked, because interfaces carry no state and no bodies. And the summary line: interface versus abstract class is checklist versus half-built house. Next comes the pattern your project requires.
+
+--- Chinese Annotation ---
+回到起点：我在项目启动时就点过名的这个形状，现在它来了。解耦意味着各部分可以独立变化。Context 持有一个策略槽位——只是一个类型为接口的引用——而算法插入那个槽位。盯住变化的东西：导出格式。它被隔离在槽位之后，所以添加 XmlExport 什么都不碰。这张图是你的项目规定架构：你的设计必须包含这个形状，答辩时你要指着自己的槽位。

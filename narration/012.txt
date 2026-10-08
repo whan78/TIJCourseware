@@ -1,0 +1,4 @@
+Your project brief: a shape-based reporting system that chapters seven through nine build piece by piece, in teams of three or four, with roles assigned this week. The endpoint is a Strategy plus Factory architecture. Let me name the two patterns exactly: Strategy is a swappable algorithm behind an interface; Factory is an interface whose implementations create objects. Both return as full slides in week eleven. You are graded on encapsulation, on extending the system without client edits, and on your defense. The design-for-change attitude is the real goal. Now form teams and pitch one object candidate.
+
+--- Chinese Annotation ---
+你的项目任务书：一个基于图形的报表系统，第七到九章会一块一块地把它搭建起来，三人或四人一组，本周分配角色。终点是策略加工厂（Strategy + Factory）架构。让我准确说出这两个模式：策略是藏在接口后面的可替换算法；工厂是其实现负责创建对象的接口。两者都会在第十一周以完整幻灯片回归。你的评分点：封装、不修改客户端代码就能扩展系统，以及你的答辩。为变化而设计的意识才是真正的目标。现在组队，提出一个对象候选。

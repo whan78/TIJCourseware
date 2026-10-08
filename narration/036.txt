@@ -1,0 +1,4 @@
+Three loops, one difference: where is the condition CHECKED? While checks first, so it may run zero times. Do-while runs the body first, so it runs at least once — check-then-do versus do-then-check. For bundles init, test, and update in one header — the counter is built in. The amber diamonds mark the check points; that amber is all three slides need. And let me name the classic off-by-one trap aloud: stepping one past the end of an array throws ArrayIndexOutOfBoundsException at run time. Same three loops, real data — next.
+
+--- Chinese Annotation ---
+同一个数组，三种形式——前三个循环打印结果完全相同，输出条可以证明。指着 do-while 那一行：只有三个值，因为它的条件是 j < 3——那为什么 while 版本打印五个？因为它的条件是 data.length。构建过程每点击一次展开一块：while，然后 do-while，然后 for。这是知识点 4.2——考试代码写作和实验都落在这里。Java 还有第四种形式，把每个鸡蛋直接递给你——下一页。

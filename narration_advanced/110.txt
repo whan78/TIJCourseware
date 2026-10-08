@@ -1,0 +1,4 @@
+Chapter twenty, two hours — a survey, not a mountain. Annotations are structured metadata attached to code: the compiler reads some, tools read others, frameworks read most. We cover the three built-ins you must never mistype, the syntax for defining your own annotation type, the meta-annotations that govern them — especially retention and target — and how reflection reads annotations at run time, which is the exact mechanism every framework you will meet uses.
+
+--- Chinese Annotation ---
+Chapter twenty, two hours — a survey, not a mountain. Annotations are structured metadata attached to code: the compiler reads some, tools read others, frameworks read most. We cover the three built-ins you must never mistype, the syntax for defining your own annotation type, the meta-annotations that govern them — especially retention and target — and how reflection reads annotations at run time, which is the exact mechanism every framework you will meet uses.

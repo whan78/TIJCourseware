@@ -1,0 +1,4 @@
+Five sample questions, and here is the strong-answer pattern: rule first, then a line of code from YOUR project, then the consequence. Let's rehearse one live — question five, show a late-bound call in your code. I want the dispatch-trace vocabulary you already drilled: reference type decides compile time, actual object decides run time, then name the method that runs. Weak answers are single words; strong answers cite a rule and a line number. Practice all five with your teammate playing examiner this week.
+
+--- Chinese Annotation ---
+五个优先级，倒数顺序。一：按顺序操练 8.2、9.2、9.1、7.2 和 5.1。二：陷阱群是一架梯子——画出来。三：作答格式——规则，然后追踪，然后输出。四：两分钟法则——先画图再计算。五：错误出现时，念出消息名并检查第一嫌疑。今晚在五个筹码上给自己排名，先操练最弱的。听清楚：可选项不考，单选题各通读一遍即可，无需操练。

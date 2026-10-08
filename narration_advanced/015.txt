@@ -1,0 +1,4 @@
+Chapter eleven, five hours — together with generics it is the backbone of the term. The problem statement is on the divider: you cannot know at compile time how many objects you will need. Java answers with two interface trees: Collection, holding standalone objects, and Map, holding key-value pairs. We will touch every everyday implement­ation — ArrayList, LinkedList, HashSet, TreeSet, HashMap, PriorityQueue — and one traversal idea, Iterator. Exam-wise: pick the right container for a stated requirement, and trace iterator code exactly.
+
+--- Chinese Annotation ---
+Map 的构造。Java 的 Map 就是人名加电话号码的字典。键不需要顺序，值不需要唯一。HashMap 的底层是数组加链表——哈希冲突时，链表化。负载因子 0.75 是经验值：满了就扩容。TreeMap 用红黑树，保证排序。

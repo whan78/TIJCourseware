@@ -1,0 +1,4 @@
+Chapter sixteen, three hours — lighter by design after the generics mountain. Arrays in Java are objects with a length field and a rich static toolkit. We cover creation and initialization in all shapes, the Arrays utility class end to end, sorting with comparators, and the honest comparison with collections. Exam targets: array initialization semantics and predicting binarySearch results on unsorted input.
+
+--- Chinese Annotation ---
+Chapter sixteen, three hours — lighter by design after the generics mountain. Arrays in Java are objects with a length field and a rich static toolkit. We cover creation and initialization in all shapes, the Arrays utility class end to end, sorting with comparators, and the honest comparison with collections. Exam targets: array initialization semantics and predicting binarySearch results on unsorted input.

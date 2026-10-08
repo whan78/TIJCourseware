@@ -1,0 +1,4 @@
+Two operators, two questions. Double-equals asks: same house? equals asks: same floor plan? I say it twice on purpose — it is the model that sticks. Double-equals compares references, the arrows themselves; equals compares contents, the state inside the object. And keep the boundary clean: the relational operators, less-than and friends, only ever compare values — for objects, equals is the tool. This is a standard exam short answer and code-reading item. Java planted two landmines in this exact spot — vote carefully on the next slide.
+
+--- Chinese Annotation ---
+两个运算符，两个问题。双等号问：同一个房子吗？equals 问：同一张户型图吗？我故意说两遍——模型只有重复才记得住。双等号比较引用，也就是箭头本身；equals 比较内容，也就是对象内部的状态。边界也要划清：关系运算符，小于号等，只比较值——对对象请用 equals。这是标准的考试简答与代码阅读题。Java 恰好在这里埋了两颗雷——下一页仔细投票。

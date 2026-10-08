@@ -1,0 +1,4 @@
+Look at label(): a concrete method calling the abstract one. The shared code trusts every subclass to fill the blank — BasicShape writes the template, and Disc supplies the missing area() body. Disc fills the promise and inherits the shared label() code unchanged. That is the half contract: state, shared concrete code, and one deliberate hole. This is KP 9.1 at master level, so master it now. One verified program shows both contract styles.
+
+--- Chinese Annotation ---
+现场来。我取消那一行的注释，编译，编译器回答：BasicShape is abstract; cannot be instantiated。跟我一起读出声——这是错误指南第十一号，本章的招牌错误信息。发音观察清单：AB-stract，重音在第一个音节。要背下的反射动作：用抽象基类型做引用，里面装一个具体子类。BasicShape b = new Disc(2.0)——基类型说出对象能做什么，子类决定怎么做。考试里你会写它、读它。

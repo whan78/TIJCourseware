@@ -1,0 +1,4 @@
+Why exceptions exist, in one contrast. On the left, error codes: every single call site must remember to check, and the one place a developer forgets becomes a silent, delayed failure. On the right, the exception path: the try block reads like the happy path — open, read, process — and all the error handling gathers into catch blocks. Throw creates an exception object; the runtime unwinds the call stack until a matching catch accepts it. Nothing is silently dropped: an uncaught exception terminates the program with a printed trace. That loudness is a feature.
+
+--- Chinese Annotation ---
+volatile 的妙处。volatile 变量的修改被写回内存，读取时直接从内存取，不会缓存。用 volatile 来制定某种标志——主线程写，工作线程读。记得：volatile 只能保证单个变量的可见性。

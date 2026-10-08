@@ -1,0 +1,4 @@
+Maps associate keys with values, and every method follows from that: put stores, get fetches, containsKey tests. Watch the fifth line — putting under an existing key silently replaces the previous value; that is a favorite exam trap. For traversal you get three live views: keys, values, and entries. Note the third loop pattern: iterating entrySet gives you key and value in one step, instead of paying a second hash lookup for every get inside the loop. HashMap iterates in hash order; swap in TreeMap and the same code prints sorted by key.
+
+--- Chinese Annotation ---
+I/O 的两条主路。java.io 老派：基于字符流和字节流。java.nio 2.0 新潮：基于缓冲区和通道。Files.readAllLines() 是最便捷的；Channels.read() 是最快的。两者都抛 IOException——记得捕获。

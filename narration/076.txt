@@ -1,0 +1,4 @@
+Lab seven, the handoff. Take a three-class chain and instrument it: add a println to every constructor and every static block. Then — before you run anything — predict the init log for TWO constructions. That asymmetry is the whole lesson: one new Dog() and one new Puppy(), so the statics fire only once across both runs. After running, annotate every line where reality differs from your prediction with the ladder rung that explains it. Phrase fifteen for anyone stuck, verbatim: "Two-minute rule: if a snippet surprises you for more than two minutes, draw the stack-and-heap picture first." The deliverable is the predicted-versus-actual init log. Everything so far was setup — chapter eight is the exam's center of gravity.
+
+--- Chinese Annotation ---
+这是第八周的随堂测验，三十分钟，保持安静，计入实验与测验那百分之二十。每道题的考试作答格式：先陈述规则，再追踪代码行，最后给出输出。我发还试卷时，背面印着统一梯子图——用复盘的方式给自己打分：先说出梯子台阶，再给输出行。第一题是带成员的构造顺序。第二题是静态对实例——一个共享的盒子。第三题是 PTO 第七题的两问规则：哪些调用合法，对哪个体运行。到这里全是铺垫——第八章是考试的重心。

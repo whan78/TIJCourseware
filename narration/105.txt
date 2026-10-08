@@ -1,0 +1,4 @@
+Live-code pause. Watch the main strip: Shape s = factory.create(2.0). I swap the factory implementation — new CircleFactory becomes new SquareFactory — and you predict what happens to the output. Look: the printed line changed from the circle row to the square row, while the client line never moved. The client line factory.create(size) NEVER changes — that is the whole point of banishing new to one corner. Verified skeleton output: csv,Circle,12.566370614359172 and Area of Square = 9.0.
+
+--- Chinese Annotation ---
+这是终点站幻灯片——从服务理念到槽位的一切在此汇聚。把骨架当作一件完整的作品来读：客户端只持有两个接口和抽象类型，new 只出现在工厂内部，策略在运行时插拔。结对设计冲刺：两个团队在黑板上画出自己的映射，我们按三条要点规则检查每一张。提前完成的扩展钩子：不加客户端改动地添加 Triangle 和 TriangleFactory，或者一个 CompareStrategy 家族来证明设计的通用性。现在真正动手建。

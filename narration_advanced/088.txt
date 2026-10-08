@@ -1,0 +1,4 @@
+Checkpoint on the deep containers. Question one is the contract — the failure mode is precise: wrong bucket, null result, data silently unreachable. Question two is the rehashing cost story with the pre-sizing idiom as the professional answer. Question three is a choice with a cost argument: sorted iteration is the tree's reason to exist, at logarithmic prices. If question one felt obvious, good — it is the single most-asked container interview question in the wild.
+
+--- Chinese Annotation ---
+Checkpoint on the deep containers. Question one is the contract — the failure mode is precise: wrong bucket, null result, data silently unreachable. Question two is the rehashing cost story with the pre-sizing idiom as the professional answer. Question three is a choice with a cost argument: sorted iteration is the tree's reason to exist, at logarithmic prices. If question one felt obvious, good — it is the single most-asked container interview question in the wild.

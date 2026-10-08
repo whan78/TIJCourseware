@@ -1,0 +1,4 @@
+The sentence: the variable holds a reference — an arrow. The object lives on the heap. Assignment re-aims arrows; objects never move. Use the remote-control model: assignment copies the remote, never the TV. Watch step two on the diagram: t2's arrow re-draws toward object A, and B becomes an orphan, eligible for garbage collection. Java has no pointer math, same shape as last week's picture. On the next slide we swap two references live, and you will point at the screen and tell me where the object went. Enough pictures — real code.
+
+--- Chinese Annotation ---
+这句话是：变量持有引用——一支箭。对象住在堆上。赋值只是重新瞄准箭头；对象从不移动。用遥控器模型来记：赋值复制的是遥控器，绝不是电视机。看图中第二步：t2 的箭头重新画向对象 A，B 变成孤儿，可以被垃圾回收。Java 没有指针运算，形状和上周那张图一样。下一页我们会现场交换两个引用，你要指着屏幕告诉我对象去哪了。示意图看够了——来点真实代码。

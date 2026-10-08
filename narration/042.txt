@@ -1,0 +1,4 @@
+Who initializes fields? In C you do it yourself, or else. Java answers differently: the constructor runs, always, before you can touch the object. A constructor carries the same name as its class and has no return type at all — and watch the trap: if you write void CtorChain with empty parentheses, the compiler sees an ordinary method, not a constructor. Think of the constructor as a birth-certificate clerk: no object leaves the office unregistered. Remember the stamp picture from chapter two — fields start zero or null; the constructor is where the real values get guaranteed. One class can offer several ways to be born, and that is overloading, up next.
+
+--- Chinese Annotation ---
+三个构造器，一个类，三种不同的参数列表。我发起三个 new 调用：a 什么都不给，b 给名字，c 给名字和价格——三条不同的路径，但每一条都汇入同一个真正干活的构造器，它给 this.name 和 this.price 赋值。注意 this(...) 那几行：对另一个构造器的调用，而且必须是第一条语句。链式调用马上有专门的幻灯片；现在只需看到三条路都通向同一个地方。输出已验证：unnamed、mouse、keyboard 和 54.45。下一个问题：编译器如何在重载之间做选择？投票时间。

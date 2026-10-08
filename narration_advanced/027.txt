@@ -1,0 +1,4 @@
+Summary of the container chapter. Two interface trees with generics typed at the declaration; three list/set/queue families each answering one question about ordering, duplicates, or discipline; and one traversal abstraction, the iterator, whose remove method is the only legal removal during a walk. The lab asks you to take the Shapes example and rank five containers against a workload description — it is a design-argument exercise, not a coding one. Next: what happens when code meets reality — error handling with exceptions.
+
+--- Chinese Annotation ---
+线程的创建。继承 Thread 类——不能继承，Java 不支持多继承。实现 Runnable 接口——这是更好的方式。ExecutorService 框架：submit() 交工作。线程池的威力在于省钱——不用每次都建新线程。

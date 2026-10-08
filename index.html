@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Java Programming Courses</title>
+<style>
+  :root {
+    --primary: #1E4FA8; --deep: #0E3F8C; --bg: #F4F7FB; --ink: #1A2233;
+    --muted: #8B97A8; --panel: #FFFFFF; --line: #D6DCE5;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; background: var(--bg); font-family: 'Segoe UI', sans-serif; color: var(--ink); overflow: hidden; }
+  #stage { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 40px; flex-wrap: wrap; }
+  .course-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 40px rgba(14,63,140,.15);
+    width: 320px;
+    padding: 32px 28px;
+    text-align: center;
+    transition: transform .3s, box-shadow .3s;
+    cursor: pointer;
+  }
+  .course-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 60px rgba(14,63,140,.25);
+  }
+  .course-card .icon { font-size: 64px; margin-bottom: 16px; }
+  .course-card h1 { font-size: 28px; font-weight: 600; margin-bottom: 12px; color: var(--ink); }
+  .course-card p { color: var(--muted); font-size: 15px; line-height: 1.5; margin-bottom: 24px; }
+  .course-card .btn {
+    display: inline-block;
+    padding: 12px 32px;
+    background: var(--primary);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background .2s;
+  }
+  .course-card .btn:hover { background: var(--deep); }
+  #footer { position: fixed; bottom: 24px; width: 100%; text-align: center; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="course-card" onclick="location.href='courseware_player/index.html'">
+    <div class="icon">📚</div>
+    <h1>Java OOP Foundations</h1>
+    <p>Object-Oriented Programming Basics — Classes, Inheritance, Polymorphism, and Design Patterns</p>
+    <div class="btn">Start Course →</div>
+  </div>
+  <div class="course-card" onclick="location.href='courseware_advanced/index.html'">
+    <div class="icon">🔧</div>
+    <h1>Java Advanced Topics</h1>
+    <p>Inner Classes, Collections, Exceptions, Generics, I/O, and Concurrency</p>
+    <div class="btn">Start Advanced →</div>
+  </div>
+</div>
+<div id="footer">Thinking in Java 4e • 120 slides Foundations • 139 slides Advanced</div>
+</body>
+</html>

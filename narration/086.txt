@@ -1,0 +1,4 @@
+This pitfall is the union of three things you already own: the S52 construction ladder, the base-first rule, and late binding. Ctor order is base first — so base code runs on a half-built object. If the base ctor calls an overridable method, the derived body runs — see the orange arrow, same color code as the key figure — but the derived fields are not initialized yet. One sentence: during the base constructor, your object is only half built — any method it calls must not depend on parts that do not exist yet. Second quick vote: the radius variant — the half-built object can only offer the default 0.0.
+
+--- Chinese Annotation ---
+两分钟震撼演示。默读那八行三分钟，然后投票：程序打印什么？把猜测锁进笔记。这是运行结果：P() says null。今天你只能拿到这么多——只有输出。完整追踪停放在 B 阶段：super() 先跑，基类构造器调用 sound()，晚绑定分派到重写，而重写在字段 s 初始化之前就返回了它——null——然后 s 才变成 

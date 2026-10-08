@@ -1,0 +1,4 @@
+Real code. Stages one and two print nothing — walk them silently: primitives on the stack, references holding arrows to heap objects. Stage three: the nested block prints forty-three, and temp dies at the closing brace. Stage four prints forty-two and zero point seven five, then the String's contents, then three. If I uncomment int oops equals temp, the compiler answers: error, cannot find symbol, because temp is out of scope. Arrays are objects too, so scores lives on the heap with length three. Where exactly do all these things live? Three regions.
+
+--- Chinese Annotation ---
+真实代码。第一阶段和第二阶段什么都不打印——默走一遍：栈上的原始类型，引用握着指向堆对象的箭头。第三阶段：嵌套块打印四十三，temp 在右花括号处消亡。第四阶段打印四十二和零点七五，然后是 String 的内容，然后是三。如果我取消注释 int oops = temp，编译器回答：error, cannot find symbol，因为 temp 已出作用域。数组也是对象，所以 scores 住在堆上，长度为三。这些东西到底住在哪里？三个区域。

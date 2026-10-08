@@ -1,0 +1,4 @@
+Remember the factory pattern from chapter nine? We needed one named class per service plus one named factory class. Anonymous inner classes collapse both: the private constructor guarantees the only door is the factory, and the factory is just an expression. Count the anonymous classes — two, nested, and not one of them has a name. The consume method is unchanged from Part One, which is the point: clients program to interfaces while implementations shrink to where they are used. You will use exactly this shape for comparators in chapter seventeen.
+
+--- Chinese Annotation ---
+容器的选择。List 需要 index；Set 要唯一；Queue 要 FIFO；Map 要 key-value。Java 为每种都供菜谱：ArrayList、HashSet、ArrayDeque、HashMap。每个都背着接口：你可以换实现，而不动客户代码——那是本章的职责。

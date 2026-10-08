@@ -1,0 +1,4 @@
+Two pieces of syntax make the hidden link explicit. Inside an inner method, Outer.this is the outer object — notice back() returns it and the equality checks confirm each inner is welded to the outer that made it. Outside, the must-have is the new-in syntax: o1 dot new Inner. Read it as 'make an Inner belonging to o1'. Note the type written from outside is Outer.Inner, the fully qualified name. Predict the two booleans before I reveal them — then swap the objects and check you can still predict.
+
+--- Chinese Annotation ---
+添加元素。ArrayList add() 是末尾推，而 LinkedList add() 是队尾入——它们的时间复杂度不同。记住：扩容不是免费的，拷贝会消耗 CPU。在实验里，你要写出三种添加方式：List.add()、Deque.offer()、数组下标赋值——并解释它们的区别。

@@ -1,0 +1,4 @@
+The last pattern answers: who gets to say new? A Factory is an interface whose implementations create objects. The client asks the factory for a Shape and never writes the concrete class name — see the crossed-out ghost new Circle() on the client. The only new in the whole codebase lives inside the fenced corner, inside the factories. Add a Triangle later, and the client still compiles untouched. This is a required project element: the product is the object seen through its interface.
+
+--- Chinese Annotation ---
+现场代码暂停。盯着 main 那条带：Shape s = factory.create(2.0)。我换掉工厂实现——new CircleFactory 换成 new SquareFactory——你预测输出会怎样。看：打印行从圆那一行变成了方那一行，而客户端那一行纹丝不动。客户端行 factory.create(size) 永远不变——这就是把 new 驱逐到一个角落的全部意义。已验证骨架输出：csv,Circle,12.566370614359172 和 Area of Square = 9.0。

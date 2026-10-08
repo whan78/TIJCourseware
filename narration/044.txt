@@ -1,0 +1,4 @@
+Overloading: same method name, different argument lists — you distinguish by the argument list only. The return type does not count; two methods differing only in return type will not compile. Resolution follows a ladder: an exact match wins first, then the smallest widening conversion — char to int to long to double — and varargs is the last resort. Picture the smallest mailbox the parcel fits into. Keep this contrast in your pocket: overloading changes the menu; overriding keeps the same order but cooks it a different way — the full comparison lands in chapter seven. The return-value rule is Know level. The vote is next — commit to a prediction first.
+
+--- Chinese Annotation ---
+两票——第一到三题。第一：c 是 char，哪个 f 会运行？第二：10L 是 long。写下你的预测，然后我们揭晓。已验证的答案：f(c) 打印 f(int)，f(10L) 打印 f(long)。加宽压倒一切：char 加宽为 int，最小的适用类型。如果没有加宽能匹配，编译器装箱；varargs 是最后手段——那部分不在考试梯子上。常见的错误答案是 f(double)，因为人们总想去够最大的类型。注意：重载解析是编译期决定——它的运行时孪生兄弟我们会在课程很后面遇到。跟进演示：加上 f(char) 再跑——现在它赢了。

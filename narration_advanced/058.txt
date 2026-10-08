@@ -1,0 +1,4 @@
+Chapter fifteen, five hours — the theoretical center of the term. Generics promise compile-time type safety for reusable code. We build from the motivation through generic classes, interfaces, and methods, then meet the compromise behind it all: erasure, which is why instanceof T fails and why wildcards exist. Exam targets: write a small generic class, explain erasure's consequences, and read wildcard-based declarations — including the producer-consumer rule.
+
+--- Chinese Annotation ---
+Chapter fifteen, five hours — the theoretical center of the term. Generics promise compile-time type safety for reusable code. We build from the motivation through generic classes, interfaces, and methods, then meet the compromise behind it all: erasure, which is why instanceof T fails and why wildcards exist. Exam targets: write a small generic class, explain erasure's consequences, and read wildcard-based declarations — including the producer-consumer rule.

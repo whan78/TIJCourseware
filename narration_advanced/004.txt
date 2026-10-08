@@ -1,0 +1,4 @@
+Chapter ten, inner classes, four hours. The chapter is short but its idiom is everywhere. We move from plain inner classes, through dot-this and dot-new, to upcasting them behind interfaces, then anonymous classes, then static nested classes. The exam targets are two: explain the hidden outer-object reference, and read or write an anonymous inner class. By the end you should also be able to say precisely when a nested class should be static — that is a classic interview question.
+
+--- Chinese Annotation ---
+迭代器的核心。next() 递进，hasNext() 提前离开。迭代器让容器脱离偶然顺序，拥有可靠的遍历。反向迭代器的草图：从右向左走，同样的代码框架。记住：for-each 背后的隐藏机构。它把迭代器包装得更好——容器有个 forEach 方法。

@@ -1,0 +1,4 @@
+This table format is the exam's code-reading answer format, so copy it once, exactly. Three iterations, three rows. The column that decides is the dynamic type: reference static type on the left, object dynamic type on the right. The two-question rule still works: what may I call? — left column. Which body runs? — right column. Notice the missing fourth row: Shape.draw() never runs because every element is overridden. If one subtype did NOT override, that row would print the base body — say it now, do not wait to see it. Why do we care? Because this buys extensibility.
+
+--- Chinese Annotation ---
+这是多态的商业案例。之前：一个冻结的客户端循环加三个子类型。之后：同一个循环，零行修改——看绿勾——一个全新的 Hexagon 直接插入。客户端盒子保持密封，像一道坝墙。新的子类型插入现有循环；这就是全部要点。这是知识点 8.3，它同时也是项目维度：不触碰现有代码就添加新子类，正是实验八在你的 diff 里评分的东西。一句话说替换与扩展：替换是任何派生类都能出现在基类期望的位置；扩展是我们添加类型而从不编辑客户端。现在进入陷阱——三个，全是考试题。

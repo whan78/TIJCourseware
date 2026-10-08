@@ -1,0 +1,4 @@
+These three appendix pages are your revision kit, not lecture material. This first page gathers every key term from chapters one through three — object, class, method, reference — each with a one-line definition. Before the exam, read the term, say the definition aloud, then check yourself. If any definition feels shaky, revisit that chapter's section slides.
+
+--- Chinese Annotation ---
+第二张词汇表页覆盖第四到七章：控制流、初始化与清理、访问控制、包、组合和继承。同样的学习规则适用——盖住定义，大声说出每个术语的定义，然后自查。这里的易混对是经典考试陷阱：成对地学，绝不孤立地学。

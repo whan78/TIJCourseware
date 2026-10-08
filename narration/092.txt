@@ -1,0 +1,4 @@
+Lab 8, and it is the extensibility claim tested. From DispatchPTO: add a Hexagon class, add one line in the array initializer, and the render loop must remain byte-identical. The deliverable is the diff proving the client untouched — the graded artifact is the diff, not the new class. If your diff shows changes inside the loop, that is a design conversation, not just a point deduction. You can do polymorphism. Now: contracts.
+
+--- Chinese Annotation ---
+回忆知识点 8.2：抽象类存在的意义，是让晚绑定调用有东西可瞄准。抽象类可以持有状态、具体代码和承诺；抽象方法声明时没有方法体，每个子类必须填补它。为什么禁止实例化？因为没有体的承诺无法运行。守住这个模型：一张有些字段已预填、有些字段空白的表格。非法实例化的时刻就在下一页，代码之后马上到来。

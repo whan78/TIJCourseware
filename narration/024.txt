@@ -1,0 +1,4 @@
+Chapter three. Remember the picture from chapter two — references pointing at objects on the heap. The mantra for today, say it with me: assignment copies the arrow, never the object. When t1 = t2 runs, Java re-aims one arrow; the old object is instantly orphaned and garbage-collectable. Primitives are different — assignment copies the value itself, so x = 6 never touches y. Keep this diagram in your notes: the aliasing trap is a standard exam code-reading item. Three lines are enough to prove it — let's write them.
+
+--- Chinese Annotation ---
+第三章。记住第二章的图——引用指向堆上的对象。今天的口令，跟我念：赋值复制的是箭头，绝不是对象。当 t1 = t2 执行时，Java 重新瞄准一支箭；旧对象立刻变成孤儿，可被回收。原始类型不同——赋值复制的是值本身，所以 x = 6 永远碰不到 y。把这张图记进笔记：别名陷阱是标准的考试代码阅读题。三行代码就足以证明——来写。

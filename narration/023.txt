@@ -1,0 +1,4 @@
+Lock in your answer — A, B, or C. Ten seconds. Hands up... interesting split! Let's let the code settle the argument. The answer is B: seventy. t2 = t1 copies the arrow, so t1 and t2 aim at ONE tank; the original t2 object is orphaned and eligible for garbage collection. Assignment copies the remote, never the TV. If you voted A — good wrong answer, exactly the trap this question was built on: you believed assignment copies the object itself. In the lab, the ReferenceMaze worksheet is six more of these; draw heap pictures for all six snippets.
+
+--- Chinese Annotation ---
+锁定你的答案——A、B 还是 C。十秒。举手……分歧很有意思！让代码来裁决。答案是 B：七十。t2 = t1 复制的是箭头，所以 t1 和 t2 瞄准同一个水箱；原来的 t2 对象成为孤儿，可以被垃圾回收。赋值复制的是遥控器，绝不是电视机。如果你投了 A——错得好，这正是这道题要钓的鱼：你以为赋值复制的是对象本身。实验里有 ReferenceMaze 练习，还有六道这样的题；请为全部六个代码片段画堆图。

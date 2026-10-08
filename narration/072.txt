@@ -1,0 +1,4 @@
+One keyword, three kinds of no. final data: the value cannot change — and a blank final is assigned exactly once, inside the constructor. final method: it cannot be overridden — subclasses inherit it as-is. final class: it cannot be extended at all — the extends arrow is simply cut. The design sentence to carry with you: final classes trade extensibility for certainty — use sparingly. KP 7.9 is Understand, and the rationale behind final is Know level. Blank final stays a gloss today. Upcasting is the move that makes polymorphism possible — next.
+
+--- Chinese Annotation ---
+再用一次 7.2 的脚手架：同一个 BasicShape 家族，这次加一个 Ball。向上转型：把派生类引用归档到基类类型之下——永远安全。归档模型：你把跑车放进标着

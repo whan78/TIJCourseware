@@ -1,0 +1,4 @@
+File name must equal the public class name — I will rename the file during the demo and show you the compile error. main is the front door: this signature is where every program starts, and String[] args is how the program receives its startup messages. We compile with javac and run with java. Double-slash comments are line notes; the Javadoc block form generates the HTML API documentation — your first API doc comes from your own code. If you want homework flavor, try printing the date with new Date() — ask me before you ship it. Time to vote — the first PTO of the course.
+
+--- Chinese Annotation ---
+文件名必须与 public 类名一致——演示时我会当场重命名文件，让你看到编译错误。main 是前门：每个程序都从这个签名开始，String[] args 是程序接收启动消息的方式。我们用 javac 编译，用 java 运行。双斜杠注释是行内笔记；Javadoc 块注释形式会生成 HTML API 文档——你的第一份 API 文档就来自你自己的代码。想要作业风味的话，试试用 new Date() 打印日期——先问我再放进代码。该投票了——本课程第一道 PTO。

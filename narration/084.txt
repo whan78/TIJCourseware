@@ -1,0 +1,4 @@
+Quick vote: override a private method — what prints? Lock in your answer. Here is the reveal: the base version. The derived f() is a brand-new, unrelated method; it never participates in inheritance. Remember the blue and orange arrows from the key figure? Private f() never enters that system — the compile-time blue arrow never sees it, so there is nothing for the orange run-time arrow to re-aim at. And @Override would have flagged it: that annotation is your silent-trap detector. Redefined private method means no polymorphism, silently. Traps two and three, in one verified program.
+
+--- Chinese Annotation ---
+三个小投票，每个输出行一票。第一：ref.speak()——Sub.speak：方法晚绑定。第二：ref.tag——Base.tag。字段早绑定；引用类型获胜。第三：ref.who()——static Base.who。静态方法按引用类型解析。这是字段图景：灰色早绑定箭头直接指向引用类型的字段，Sub 对象自己的 tag 被无视，而橙色晚绑定箭头依然够到 speak()。黑板规则写到侧板，整个 B 阶段都跟着我们：晚绑定只适用于实例方法。静态绑定、动态分派——各一口气。陷阱三最狠：调用可重写方法的构造器。

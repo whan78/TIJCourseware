@@ -1,0 +1,4 @@
+I want to emphasize the project before anything else: it is not decoration. Thirty percent of your grade, and it must contain a Strategy slot and a Factory corner — both taught in chapter nine. Your design defense happens in class, in English. The final exam is fifty percent, focused on code reading and short answers, especially initialization-order and dispatch traps. Labs and quizzes carry the remaining twenty percent as a weekly deliverable. Predict-the-output votes are low-stakes, but I grade them for participation signal, so vote every time. Before week two, here is how to read this deck.
+
+--- Chinese Annotation ---
+我要先把项目放在最前面强调：它不是摆设。它占成绩的百分之三十，而且必须包含一个策略（Strategy）槽位和一个工厂（Factory）角落——两者都在第九章讲授。你的设计答辩在课堂上进行，用英语。期末考试占百分之五十，侧重代码阅读和简答题，尤其是初始化顺序和分派陷阱。实验和随堂测验占剩下的百分之二十，是每周的交付物。预测输出（PTO）投票不计高风险分，但我会记录参与度，所以每次都要投票。进入第二周之前，先讲讲怎么读这份课件。

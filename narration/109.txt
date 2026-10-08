@@ -1,0 +1,4 @@
+Same rules as every Predict-The-Output: silent three minutes, written answer, then the whole class votes — no questions during the silent window. Some of you saw a preview of this program four weeks ago, and I am counting on you having forgotten the trace; expect the same wrong-answer spread as last time. Read the constructor call carefully before you commit. When the votes are in I will reveal the answer, and we hold the full debrief for the next slide. Let's take the monster apart, joint by joint.
+
+--- Chinese Annotation ---
+我们按执行顺序把怪物一节一节拆开。陷阱 A：字段初始化器在基类构造器之后运行，所以 s 还是 null。陷阱 B：sound() 晚绑定到派生体，所以基类构造器拨通了重写。陷阱 C：基类构造器运行在半成品对象上。合在一起：基类构造器拨了一个只有派生类才能接的号码——在它的内存存在之前。预防教训是一条设计规则，不是花招：永远不要在构造器里调用可重写的方法。跟我排练考试格式——规则，然后追踪，然后输出行。

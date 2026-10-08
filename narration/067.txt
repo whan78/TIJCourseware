@@ -1,0 +1,4 @@
+KP 7.4 is Master level, so set this up as a live vote: when we construct an InstrumentedCircle that extends BasicShape and holds a Point member — members first, or base first? Collect your votes... hold them. One class does both: it extends a base AND holds members. The order claim on the board: base ctor, then own fields, then own ctor body. Picture it as building a house: the foundation goes in first, then you furnish the rooms. Delegation rides along inside the members, but that is a spoken aside for later. We settle the vote with the log we already have — next slide.
+
+--- Chinese Annotation ---
+这是揭晓的投票：基类先行——永远如此，即使有成员。把 EX-7.1 日志逐行钉到图的编号箭头上：BasicShape() ctor 对应

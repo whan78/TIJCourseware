@@ -1,0 +1,4 @@
+Rapid fire — four questions, mini-whiteboards, about ninety seconds each, answers chorus-style. One: s1 == s3 on two new Strings — false. Two: int x = 3.99 — does it compile? No, lossy conversion. Three: "grade code = " + 'A' + 1 prints grade code = A1. Four: while i less than five with a stray semicolon — empty body, the loop does nothing. Then Lab 3, the operator trap-hunt: five buggy snippets, B1 to B5 — find each bug, explain it, fix it. Bitwise, shift, and sizeof are self-reading; at most one multiple-choice question on them. You can compute — now make the program DECIDE.
+
+--- Chinese Annotation ---
+Java 里的真值是一种类型，不是数字——条件必须是 boolean，没有商量余地。C 语言的著名 bug 在这里被设计消灭：在 C 里，条件中的赋值会静默编译，if (x = 5) 变成赋值五而不是比较。Java 拒绝——int 不能转换为 boolean。同一个陷阱在实验三里换了个马甲，B5：boolean ok = (a = 5)。今天构建 if、if-else 和 else-if 链——意识与语法同样重要：可读性优先，卫语句胜过嵌套。最干净的 if-else 是那个提前离开的。

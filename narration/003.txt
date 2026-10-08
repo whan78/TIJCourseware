@@ -1,0 +1,4 @@
+Let me walk this timeline left to right once. Week one is the OOP kickoff and your project brief. Weeks two through four build foundations: references, operators, control flow. Weeks five through eight go deep on objects: constructors, access, inheritance. Then this orange diamond — halfway through, your team pitches its design at the mid-course checkpoint. Weeks ten to twelve are the exam's center of gravity: polymorphism and contracts, chapters eight and nine, and they get the largest slide budgets, fifteen each. Weeks thirteen and fourteen are lab extensions plus the Strategy-Factory refactor, and Block B brings traps, drills, and your defense. And here is how it all adds up to your grade.
+
+--- Chinese Annotation ---
+我们从左到右过一遍这条时间线。第一周是面向对象启动和项目任务书。第二到四周打基础：引用、运算符、控制流。第五到八周深入对象：构造器、访问控制、继承。中间这个橙色菱形是期中检查点——你们的团队要在那里做设计提案。第十到十二周是考试的重心：多态与契约，第八、九章，各占最多的十五页篇幅。第十三、十四周是实验扩展加策略-工厂重构，B 阶段则包含陷阱、冲刺训练和你的答辩。最后是它如何汇总成你的成绩。

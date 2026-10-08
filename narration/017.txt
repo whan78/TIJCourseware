@@ -1,0 +1,4 @@
+Three regions. Registers sit inside the CPU — not your business. The stack holds method-call frames and local variables: main calls f, f calls g, and each frame carries its own slots, like int x. The heap is where all objects live. Static storage exists for the whole run. The exam asks this as a short answer: where does each kind of variable live? Say heap with one clean vowel. The stack stores small fixed-size values — the eight primitives.
+
+--- Chinese Annotation ---
+三个区域。寄存器在 CPU 里面——不归你管。栈存放方法调用帧和局部变量：main 调用 f，f 调用 g，每个帧都带自己的槽位，比如 int x。堆是所有对象居住的地方。静态存储存在整个运行期。考试会出这个简答题：每种变量住在哪里？把 heap 的元音发清楚。栈存放小而固定大小的值——八个原始类型。

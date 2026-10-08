@@ -1,0 +1,4 @@
+Here is the business case for polymorphism. Before: a frozen client loop plus three subtypes. After: the same loop, zero lines changed — see the green check — and a brand-new Hexagon plugged straight in. The client box stays sealed, like a dam wall. A new subtype plugs into the existing loop; that is the whole point. This is KP 8.3, and it is a project dimension too: adding a new subclass without touching existing code is exactly what Lab 8 grades in your diff. One sentence on substitution versus extension: substitution means any derived works where the base is expected; extension means we add types and never edit clients. Now the traps — three of them, all exam items.
+
+--- Chinese Annotation ---
+针对基类类型编写客户端。替换：任何派生类都能出现在基类期望的位置——Shape 形状的插座接受每一个插头。扩展：添加类型，从不编辑客户端。把散落在代码各处的类型检查视为设计异味——如果你不断追问

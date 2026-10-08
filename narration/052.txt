@@ -1,0 +1,4 @@
+Three rungs, always in this order. Rung one: statics, once per class. Rung two: instance fields, in textual declaration order. Rung three: the constructor body. Fields always finish before the ctor body runs. Look at the House fields on the right: w1, w2, w3 as sticky notes in textual order — w1 before w3, even though w3 is also assigned inside the constructor. Take out your phones and photograph this slide — the same ladder returns at 7.2, 7.7, 8.6 and in the week-16 recap; it is the single most reused figure in the course. Whiteboards out: the vote is next. Predict — then we run it.
+
+--- Chinese Annotation ---
+全班先写出输出顺序——默写，三分钟。然后我们按顺序朗读投票，最后才运行。指着 w3：它在文本里声明在构造器之后，但它的初始化器在构造器体之前运行——文本顺序胜过版面位置。已验证的序列：Window(1)、Window(2)、Window(3)、House()、Window(33)，然后 f()。常见的错误答案把 House() 放在最前，因为人们从上到下读文件。在梯子上再追踪一遍：所有实例字段初始化器，然后构造器体，然后方法调用。继续之前有一条教材警告。

@@ -1,0 +1,4 @@
+Now the contrast that the exam loves. Add static and the hidden link disappears: a nested class is just a class that happens to be written inside another one, for scoping and packaging. It cannot touch outer instance state, and you build it without any outer object — new Outer.Nested. Compare the two creation lines at the bottom. Classes inside interfaces are implicitly public and static — remember that when we meet builders in later libraries. Practical rule: reach for static unless you can point at the outer instance member you need.
+
+--- Chinese Annotation ---
+ArrayList 内部。它背的是 Object[] 数组。扩容时 copyOf(): 旧数组复制到新数组——元素搬家。初始容量是10。除了内存碎片，扩容是唯一的昂贵操作。对插入到中间的修改，是 n 的平方操作——所以 ArrayList 只适合尾部推。

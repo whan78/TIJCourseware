@@ -1,0 +1,4 @@
+This is the chapter opener, so let me run the map first: what — late binding at run time; how shaped — dispatch on the dynamic type; where from — static binding for fields and statics; how to find — the dispatch trace table; apply — extend with zero client edits. Knowledge points 8.1 and 8.2 are Master level. Same upcast as Chapter 7 — but now we call a method. The reference type is Shape; the object is a Circle. Which body runs? That is today's question, and I am deliberately answering nothing yet. Everything from here on hangs on one word: binding.
+
+--- Chinese Annotation ---
+这页是考试的重心；如果今天你只拍一张幻灯片，就拍这张。绑定是把调用连接到将运行的体的行为。晚绑定意味着这个选择发生在运行时。编译期我们问什么可以调用——那是引用类型，蓝色箭头。运行期我们问哪个体执行——那是对象类型，橙色箭头。编译器检查地址存在；运行时问谁真正来开门。现在一个警告，在 8.5 得到证明：这只适用于实例方法——字段和静态成员没有多态。

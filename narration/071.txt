@@ -1,0 +1,4 @@
+Drill this sentence with me once, chorally: "protected is private as far as the client is concerned." Picture the two actors: the client — the outside code that just uses your class — hits a wall; protected is invisible to them. The inheritor walks through a side door: package access plus subclasses may use it. So the client never sees it, but the inheritor does. Remember the access matrix from chapter six — this is the protected row, re-shown. KP 7.7 is Understand level: expect an exam multiple-choice and code reading on exactly this. And the keyword that says NO three ways is next.
+
+--- Chinese Annotation ---
+一个关键字，三种

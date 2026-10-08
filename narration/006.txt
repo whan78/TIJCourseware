@@ -1,0 +1,4 @@
+Let me start with the maintenance horror story. In a procedural style, data lives over here and functions over there, and in big programs global state ends up everywhere — one change breaks everything. The OOP answer: ask objects for services, not for their data, and design programs that survive change. Look at the two sketches: the tangle on the left, the clean service conversations on the right. If you want optional depth, read section 1.7 of the book on containers and Java and the Internet — it is not examined. The tool that tames this problem is abstraction.
+
+--- Chinese Annotation ---
+从一个维护恐怖故事讲起。在过程式风格里，数据在这边、函数在那边，大程序里全局状态到处都是——改一处就全崩。面向对象的答案：向对象请求服务，而不是索取它的数据，设计能经受变化考验的程序。看这两张草图：左边是纠缠的乱麻，右边是干净的服务对话。想要选学深度的话，可以读原书 1.7 节关于容器以及 Java 与互联网的内容——不考。驯服这个问题的工具是抽象。

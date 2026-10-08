@@ -1,0 +1,4 @@
+Before I reveal anything: which line prints first, and why? Give me your answer... The compiler silently inserts super() as the first line — that is why BasicShape prints before "ctor start". So the log reads exactly in this order: BasicShape() ctor, then InstrumentedCircle ctor start, then Point(3,4) constructed, then InstrumentedCircle ctor end. Notice where the member appears: the Point is built when the derived constructor reaches the assignment — members are built when the derived ctor says so, not before. KP 7.2 is exam code reading: constructor call order. Now the full ladder, with statics — and that one gets a vote.
+
+--- Chinese Annotation ---
+两阶段投票。第一阶段：哪条静态行先打印——Insect 的还是 Beetle 的？锁定答案……第二阶段：写出完整输出顺序。这是要对应的梯子：静态成员从基类到派生类运行，每类一次；然后是实例字段；然后是构造器体，基类到派生类。揭晓之后，在一条线上停顿：j = 39 出现在 Insect 构造器打印 j = 0 之后——基类体运行时那个字段还是默认的零。常见陷阱：把两条静态行顺序对调，或者把 j = 39 写进 Insect 构造器的输出里。下一页：把两个复用工具组合起来，顺序同样是固定的。

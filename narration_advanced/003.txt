@@ -1,0 +1,4 @@
+One slide of orientation. On the left is what you can already do — that is the entry ticket, so if any line feels shaky, revisit Part One now. On the right is what this term buys you, grouped by purpose rather than by chapter. Inner classes come first not because they are hardest, but because anonymous inner classes are the idiom every later chapter uses for callbacks, comparators, and factories. Keep the mapping in mind: every chapter exists to make programs that hold data, survive errors, and stay responsive.
+
+--- Chinese Annotation ---
+下一个话题：容器。Java 标准库给你五种容器——List、Set、Queue、Deque、Map——每种都有自己的称号。第十一章最忙的章节：容器的核心操作——添加、删除、遍历。记住：容器保存的是引用，不是值。用了容器就离不开迭代器——它们是集合的 GPS，告诉你每个元素住在哪里。

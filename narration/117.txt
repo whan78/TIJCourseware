@@ -1,0 +1,4 @@
+We close the loop where we started: one book, one idea — objects providing services. Office hours are posted on the course site; bring your ladder drawings and I will mark them with you. Defenses run on the Block B schedule, so check your slot tonight. Next comes Data Structures, and every container, iterator, and comparator you will meet there is an interface contract — this course was the foundation for all of it. You now speak object. Keep aiming arrows carefully.
+
+--- Chinese Annotation ---
+这三页附录是你的复习包，不是讲授材料。第一页收拢第一到三章的每个关键术语——对象、类、方法、引用——各配一行定义。考前，读术语、说出定义、然后自查。任何定义感觉不稳，就回到那一章的节幻灯片。

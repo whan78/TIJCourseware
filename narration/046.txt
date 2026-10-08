@@ -1,0 +1,4 @@
+What if you write no constructor at all? Then the compiler hands you a free no-arg one. But the moment you write any constructor of your own, the free one vanishes. The model: the spare key exists only if you never cut your own. Watch the live demo: I comment out the no-arg constructor in CtorChain and compile — new CtorChain() now fails with: constructor CtorChain in class CtorChain cannot be applied to given types. Read errors with the reflex: count and types of arguments. Did writing your own constructor remove the default? That is exactly what happened. Compile-error traps like this are on the exam. Next: the keyword that runs the show inside — this.
+
+--- Chinese Annotation ---
+两种职责，两种写法。单独的 this 是对当前对象的引用——

@@ -1,0 +1,4 @@
+Same interface, opposite internals — so the same operations have opposite costs. ArrayList is one contiguous array: indexing is instant, but inserting at the front shuffles half the array. LinkedList is separate nodes with pointers: splicing in the middle is two pointer writes, but reaching element ten-thousand walks ten thousand links. The engineering lesson: declare the variable as List, choose the implementation by the dominant operation of your workload. And if you keep calling contains in a loop, neither will save you — reach for a HashSet instead.
+
+--- Chinese Annotation ---
+String 的魔法。Java 的 String 是不可变的——每次修改都产生新对象。字面量池：相同内容的字面量只存一份。intern(): 把堆上的 String 归还到池里。字符串拼接：+ 操作被编译器优化，循环里拼接要用 StringBuilder。

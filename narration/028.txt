@@ -1,0 +1,4 @@
+Meet the lazy examiner. Double-ampersand stops at the first false; double-pipe stops at the first true — which means the second operand may NEVER run at all. The practical rule: order cheap, safe checks first, and put the expensive or risky ones behind them. Now the setup for the trap: what if the second operand PRINTS something — does skipping still count as safe? That is exactly the next vote. One definition in one breath: a side effect is any change inside an expression beyond its value. Here is the trap, live.
+
+--- Chinese Annotation ---
+见见这位懒惰的考官。双与（&&）在第一个 false 处停笔；双或（||）在第一个 true 处停笔——这意味着第二个操作数可能根本不会运行。实用法则：把便宜、安全的检查排在前面，昂贵或有风险的排在后面。铺垫陷阱：如果第二个操作数会打印东西——跳过它还算安全吗？这正是下一次投票。一口气给个定义：副作用是表达式内部任何超出其值的变化。陷阱现场来了。

@@ -1,0 +1,4 @@
+Lab 6: you get a leaky Student class — public fields, no guards. Task: apply the minimal sufficient access levels and add guarded mutators. Deliverable: a before/after diff, red on the left, green on the right — the lock moving from open to closed. One line on class access: top-level classes are public or package-private, and default-constructor access follows the class — that is exam multiple-choice material. Encapsulation is a graded project dimension, so this lab feeds your project score directly. Classpath mechanics stay a lab-4 setup topic, not examined. Chapter seven: two ways to reuse a class — and one of them is usually wrong.
+
+--- Chinese Annotation ---
+第七章是两个复用工具交汇的地方，让我一口气把地图跑完：是什么——组合对继承；形状如何——基类先行初始化和向上转型；来自哪里——类加载和完整梯子；如何判断——is-a 对 has-a 的裁断；怎么应用——一份带插桩的初始化日志。整个章节守住一个决策问题：每一个复用选择都是 has-a 对 is-a。汽车 HAS-A（有一个）发动机；它 IS-NOT（不是）发动机。盯住这个陷阱：仅仅为了复用一个方法就去继承。知识点 7.1 是精通级——考试代码写作加实验。预览地基模型：先打地基，再装修房间。

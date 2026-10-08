@@ -1,0 +1,4 @@
+Three moves, one line. Promotion is automatic — small to large, no marks needed. A cast is you asking for it: put the type in parentheses and own the consequences. Truncation discards the fractional part toward zero — int of 3.99 is 3, not 4; it never rounds. And the compiler refuses silent loss: int x = 3.99 is an error. Read the message with me, passive voice and all: possible lossy conversion from double to int — refused BY the compiler. In the exam, predict-output items love this one: (int) 3.99 is 3. Recap, quiz, and your lab — next.
+
+--- Chinese Annotation ---
+快问快答——四道题，小白板，每题约九十秒，齐声作答。一：对两个 new 出来的 String 做 s1 == s3——false。二：int x = 3.99——能编译吗？不能，有损转换。三：

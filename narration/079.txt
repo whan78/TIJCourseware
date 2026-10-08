@@ -1,0 +1,4 @@
+This slide is the exam's center of gravity; if you photograph one slide today, make it this one. Binding is the act of connecting a call to the body that runs. Late binding means that choice happens at run time. At compile time we ask what MAY be called — that is the reference type, the blue arrows. At run time we ask which BODY executes — that is the object type, the orange arrow. The compiler checks the address exists; the runtime asks who actually answers the door. One caveat now, proven at 8.5: this applies to instance methods only — fields and statics do not polymorph.
+
+--- Chinese Annotation ---
+在我运行任何东西之前，你先手写填这张表。三行，每轮一行。对每个元素写下引用的静态类型——编译期，可以调用什么——和对象的动态类型——运行期，哪个体运行。Shape 数组是 8.1 的动物园：集合故意忘记具体类型。现在写下你的表格答案，然后我们现场运行。注意没有 Shape.draw() 这一行——那个体从不执行。如果你的表写了三次 Shape，那就是常见的错误答案。这张表是考试模板，所以我们把它建标准。

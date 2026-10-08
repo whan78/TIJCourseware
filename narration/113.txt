@@ -1,0 +1,4 @@
+Last drill, four items, and these reconstruct KP 7.2 and 5.1 in four minutes. D8: the compiler inserts super() first in every derived constructor — base first, always. D9: write one three-arg constructor and new X() no longer compiles; the default is gone. D10: a static block runs once, at class load. D11: fields initialize before the constructor body, in textual order. Check your score honestly: if you missed two or more, come to office hours before your defense. Now, your defense in detail.
+
+--- Chinese Annotation ---
+每队展示十分钟，提问五分钟。评分细则已经裁定：设计正确性百分之四十，策略与工厂运用百分之三十，代码质量百分之二十，问答答辩百分之十。你的展示必须展示架构 UML、策略槽位、工厂角落，以及一次现场切换。我会坚持两件事：封装计分，且每队以先陈述自己最弱的设计决策开场——这份诚实本身就是练习的一部分。增加的答辩小时对应你的实验时段，恰好把学时账本闭合。

@@ -1,0 +1,4 @@
+The scaffold first: KP 9.1 again. An interface has no state and no bodies — only signatures. When a class implements an interface, it is signing a contract: I fulfill this promise. Here is the line from confused pair number six: an abstract class gives you a half-built house; an interface hands you a checklist. Look at the diagram — Rock, Chair, and Disc share nothing except this one type. No shared base class is needed, so the contract reaches across unrelated families. This is KP 9.2, master level, top priority. Does the dispatch machinery care that Rock and Chair are unrelated? Vote next slide.
+
+--- Chinese Annotation ---
+与知识点 8.2 相同的机器，新的契约类型：show 接收一个 Describable，d.describe() 晚绑定。先投票：这能编译吗？如果能，打印什么？写下预测，然后投票。Rock 和 Chair 没有共享基类——接口是它们唯一的公共类型，而分派机器并不在意它们互不相关。揭晓之后我删掉 describe() 的 public 再编译：attempting to assign weaker access privileges。那是第九章陷阱二号，记进你的错误指南。

@@ -1,0 +1,4 @@
+Switch picks a case by value — here, the tens digit of the score. No break means execution FALLS THROUGH into the next case: silent, no error at all, and that is exactly what makes it dangerous — pitfall number two in this chapter. The one legal fall-through is the deliberate stacked labels: case ten, case nine share the A branch; everything else breaks. Goto exists in the language, but we never use it — and it is not examined; this is a favorite multiple-choice trap. Now build the whole thing with me.
+
+--- Chinese Annotation ---
+这一页跟我一起现场构建。在我敲 switch 之前，跟我辩论：F 分支应该放在最前面吗？……我们决定先写卫语句，再按十位数字 switch——分支顺序是你自己的决定，而且你得给出理由。这一行指向要点：卫语句在前，band 等于十位数字，case 10 和 9 叠放——唯一一次刻意的跌落。我敲代码，你来预测——在我按回车之前喊出下一行输出。输入九十五打印 A。然后实验四：一到三十的 FizzBuzz、用 foreach 和 continue 求奇数和，以及用 hasNextInt 拒绝非整数输入的 GradeClassifier。下一章：谁来初始化你的对象？

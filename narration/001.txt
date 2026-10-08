@@ -1,0 +1,4 @@
+Welcome to Java Programming: Object-Oriented Foundations. Everything in this course is built on one book and one idea: software is a set of objects providing services to each other. Over sixteen weeks we move from basic object concepts to polymorphism, contracts, and design patterns. Keep the book at hand — every lecture maps onto chapters one through nine. By week 16 you will design and defend your own polymorphic system. Let me show you the rhythm of the course.
+
+--- Chinese Annotation ---
+欢迎来到《Java 程序设计：面向对象基础》。整个课程建立在一本书和一个核心理念之上：软件是一组相互提供服务的对象。在十六周里，我们将从基本的对象概念出发，一路走到多态、契约和设计模式。请把教材放在手边——每次课都对应原书的第一章到第九章。到第 16 周，你将设计并答辩自己的多态系统。下面来看看这门课的节奏。

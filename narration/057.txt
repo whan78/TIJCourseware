@@ -1,0 +1,4 @@
+A package is a named group of classes — the library unit. Fully-qualified names are long: net.mindview.util.Vector, and that length is the point — package names are unique across the world, which is why we build them from reversed domain names. import just shortens names: after the import, Vector alone is enough. Look at the two trees: net.mindview.util holding Vector, List and Sorter, and the sibling com.myproject holding Account. Classpath setup lives in the lab only. The real power arrives on the next slide: a package is not just organization — it is the access boundary. Inside and across packages, who may use what?
+
+--- Chinese Annotation ---
+四个级别，四列，一张要背的矩阵。public 在任何地方都可用。private 只在它自己的类内。protected 在包访问之上增加了子类访问。而我高亮的这一行就是陷阱：完全不加修饰符是包私有——同一个包内可见，其他地方不可见。直说：不写修饰符不等于 public——大陷阱。锚定回上一页的两棵树：这里的每一列都锚定在包上。这张矩阵是考试材料，选择题和代码阅读都会出。选择级别是设计决策——那是下一页。

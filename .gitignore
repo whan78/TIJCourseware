@@ -1,0 +1,46 @@
+# Temporary / cache files
+.cache/
+.slidep/
+__pycache__/
+*.pyc
+
+# Backup / intermediate files
+*backup*/
+*副本*
+narration_zh_part*.py
+narration_zh/
+narration_en/
+narration_bilingual/
+narration_advanced_ch.py
+convert_advanced_bilingual.py
+apply_translations.py
+merge_translations.py
+create_slide_images.py
+extract_images.py
+extract_notes.py
+fix_svg_media.py
+content_check.py
+inject_notes.py
+build_player.py
+export3.ps1
+pyfallback/
+slides/
+*.slide
+lint*.txt
+toc_raw.txt
+
+# Source PPTX (large source material, not needed to run the courseware)
+*.pptx
+
+# Intermediate / one-off scripts
+img_advanced/
+fiximg/
+narration_advanced_zh.py
+gen_audio.py
+replace_pics.py
+publish_github.py
+
+# Logs and misc
+*.log
+*.exit.txt
+manifest.json

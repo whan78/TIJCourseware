@@ -1,0 +1,4 @@
+The second glossary page covers chapters four through seven: control flow, initialization and cleanup, access control, packages, composition, and inheritance. The same study rule applies — cover the definitions, define each term aloud, then check. The easily-confused pairs here are classic exam traps: study them as pairs, never in isolation.
+
+--- Chinese Annotation ---
+最后一张词汇表页覆盖多态与接口，并以完整的易混对清单收尾。复习技巧头一条：对每一对，构造一个把它们弄混就会改变行为的小例子——一个小例子胜过把定义读十遍。课程到此完结。干得好。

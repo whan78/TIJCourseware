@@ -1,0 +1,4 @@
+Interface versus implementation. The interface is visible — the requests clients may make. The implementation is hidden — the code that actually performs each service. Concrete story: a music player app replaced its codec entirely, and the play button never moved. That is the payoff in the caption: change the core, and the shell stays, so clients never notice. A C pointer hands you the steering wheel; a Java reference only lets you point — details in chapter two. If you have written C, here is the map swap you must make.
+
+--- Chinese Annotation ---
+接口与实现。接口是可见的——客户端可以发出的请求。实现是隐藏的——真正执行每个服务的代码。一个具体的故事：某音乐播放器 App 完全更换了解码器，但播放按钮纹丝不动。这就是图注中的收益：更换内核，外壳保持不变，客户端毫无察觉。C 指针把方向盘交给你；Java 引用只允许你指向——细节在第二章。如果你写过 C，这就是你必须完成的地图切换。

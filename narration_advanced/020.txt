@@ -1,0 +1,4 @@
+Iteration is where polymorphism pays again. Look at the loop: nothing in it mentions ArrayList — iterator() returns something with hasNext and next, and the same loop works unchanged on a LinkedList or a TreeSet. The trap to drill: you must not call pets.remove() while iterating; use the iterator's own remove, which removes the element just returned and keeps the internal cursor consistent. ListIterator exists only for Lists and can move backwards — here we start at the end via listIterator(size). Trace the console output by hand before I show it.
+
+--- Chinese Annotation ---
+StringBuilder vs String。StringBuilder 是可变的，String 是不可变的。拼接大量字符串：StringBuilder。只有读 String：直接用 +。记住：StringBuilder.toString() 才产生 String。

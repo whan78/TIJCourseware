@@ -1,0 +1,4 @@
+A queue is a discipline, not a data layout — hence two very different classes behind the same interface. LinkedList gives plain FIFO: one, two, three in arrival order. PriorityQueue instead serves by comparison — watch the loop print three, six, nine regardless of the order we offered them. By default the smallest comes out first; pass a reversed Comparator at construction for largest-first. Under the hood it is a binary heap — that is chapter seventeen territory, but you can already choose it correctly: whenever 'next most urgent' is the rule, this is the container.
+
+--- Chinese Annotation ---
+文件的复制。Files.copy() 一行代码；但要处理 DirectoryNotEmptyException。try-with-resources 里放 Path，自动 close 了。Java 11 的新玩意儿：Files.readString()、Files.writeString()——不用管字符集。

@@ -1,0 +1,4 @@
+The same class, defended: balance is private, deposit carries a guard that rejects anything not positive, getBalance is a read-only view. The bad value is rejected, not stored — output verified: 100.0. And the direct write a.balance = -999999 now fails at compile time: balance has private access in Account. Read that error as good news — the compiler enforcing your design. Resolving your four answers from last slide: balance goes private with a guarded mutator; deposit is package-private here and that suffices; getBalance is a package-private read-only view; main stays public because it is the entry point, not a design choice. Your lab: tighten a leaky class.
+
+--- Chinese Annotation ---
+实验六：拿到一个漏水的 Student 类——public 字段，没有守卫。任务：套用最小够用的访问级别，并加上带守卫的修改器。交付物：一张前后对比 diff，左边红色，右边绿色——锁从打开到合上。关于类访问的一句话：顶层类是 public 或包私有，默认构造器的访问跟随类——这是选择题考试材料。封装是项目的评分维度，所以这个实验直接计入你的项目分。类路径机制只是实验四的配置话题，不考。第七章：复用一个类的两条路——其中一条通常是错的。

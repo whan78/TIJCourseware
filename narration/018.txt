@@ -1,0 +1,4 @@
+The eight primitives. Bytes, shorts, ints, and longs for whole numbers; floats and doubles for decimals; char is a sixteen-bit unsigned number, so 'A' plus one is sixty-six — a recurring multiple-choice trap; boolean holds true or false only. Widening is automatic, narrowing needs a cast — full story at 3.5, one sentence today. Remember the coin model on the right: a primitive variable IS the value itself, while a reference is a claim ticket you exchange for the object. Primitives are values — but what about collections of things? Arrays.
+
+--- Chinese Annotation ---
+八个原始类型。byte、short、int、long 用于整数；float 和 double 用于小数；char 是十六位无符号数，所以 'A' 加一等于六十六——这是个反复出现的选择题陷阱；boolean 只取 true 或 false。加宽是自动的，收窄需要强制转换——完整内容在 3.5 节，今天只说一句。记住右边的硬币模型：原始类型变量本身就是值，而引用是你换取对象的一张凭据。原始类型是值——那成堆的东西呢？数组。

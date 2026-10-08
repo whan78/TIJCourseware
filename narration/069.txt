@@ -1,0 +1,4 @@
+Confused pair number ten, one line: fields wear name tags — same tag, the base version wins; instance methods duel — the more derived body wins. So a field or static with the same name shadows the base one, and only methods can be overridden. Here is the chapter pitfall that bites silently: misspell the override and it still compiles — you just created a new method. Put @Override on it and the compiler answers "method does not override or implement a method from a supertype". The full hiding-versus-overriding mechanism lands at 8.2 and 8.5; today just keep the name tags straight. So WHEN do you choose which? Stand up — next slide.
+
+--- Chinese Annotation ---
+全体起立。地板线：左墙是 
